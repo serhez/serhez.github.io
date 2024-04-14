@@ -13,7 +13,7 @@ useHead({
 
 <template>
     <main class="container mx-auto my-16 flex gap-16 max-w-6xl flex-1 flex-col px-6 sm:px-12">
-        <!-- <navigation /> -->
+        <navigation />
         <section class="flex flex-1 flex-col">
             <slot />
             <ModalsContainer />
