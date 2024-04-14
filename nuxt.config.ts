@@ -32,17 +32,14 @@ export default defineNuxtConfig({
         crawler: false,
     },
     target: 'static',
-    router: {
-        base: '/serhez.github.io/',
-    },
     experimental: {
         componentIslands: true,
     },
-    runtimeConfig: {
-        public: {
-            siteUrl: 'https://sergiohg.com',
-        },
-    },
+    // runtimeConfig: {
+    //     public: {
+    //         siteUrl: 'https://sergiohg.com',
+    //     },
+    // },
     typescript: {
         shim: false,
     },
