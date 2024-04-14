@@ -31,6 +31,10 @@ export default defineNuxtConfig({
     generate: {
         crawler: false,
     },
+    target: 'static',
+    router: {
+        base: '/serhez.github.io/',
+    },
     experimental: {
         componentIslands: true,
     },
