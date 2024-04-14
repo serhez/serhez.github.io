@@ -40,7 +40,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            siteUrl: 'https://sergiohg.com',
+            siteUrl: 'https://serhez.github.io',
         },
     },
     typescript: {

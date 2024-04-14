@@ -7,7 +7,7 @@ const config = useRuntimeConfig();
 useHead({
     htmlAttrs: { class: 'bg-[#ffffff]' },
     bodyAttrs: { class: 'flex flex-col text-zinc-800' },
-    // link: [{ rel: 'canonical', href: config.public.siteUrl + route.fullPath }],
+    link: [{ rel: 'canonical', href: config.public.siteUrl + route.fullPath }],
 });
 </script>
 
