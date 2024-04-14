@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper.DlAUqK2U.js";import{o,c as t}from"./entry.BecXmkdP.js";const c={},s={class:"text-4xl"};function r(n,_){return o(),t("h1",s,"Coming soon!")}const f=e(c,[["render",r]]);export{f as default};
