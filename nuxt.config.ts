@@ -28,6 +28,9 @@ export default defineNuxtConfig({
             ],
         },
     },
+    generate: {
+        crawler: false,
+    },
     experimental: {
         componentIslands: true,
     },
