@@ -42,7 +42,7 @@
         "venue": "Microsoft Blog, UK Faculty Connection",
         "year": "2018",
         "status": "published",
-        "abstract": "In this post in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a tool to reconstruct parchments in order to be able to read them.",
+        "abstract": "In this post in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a parchment-reconstruction tool to read them.",
         "links": [
             {
                 "title": "Microsoft Blog",
