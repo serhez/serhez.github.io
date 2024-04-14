@@ -1,0 +1,6 @@
+[
+    { "hidden": false, "href": "/", "name": "About", "external": false },
+    { "hidden": false, "href": "/research", "name": "Research", "external": false },
+    { "hidden": false, "href": "/projects", "name": "Projects", "external": false },
+    { "hidden": false, "href": "/resume", "name": "Resume", "external": false }
+]

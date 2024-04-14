@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": ["plugin:nuxt/recommended", "plugin:prettier/recommended"],
+    "plugins": [],
+    "ignorePatterns": ["**/*.test.ts"],
+    "settings": {
+        "format": false,
+        "packageManager": "npm"
+    },
+    "rules": {
+        "@typescript-eslint/no-empty-interface": 1,
+        "@typescript-eslint/no-parameter-properties": 0,
+        "vue/multi-word-component-names": "off",
+        "vue/no-multiple-template-root": "off"
+    }
+}

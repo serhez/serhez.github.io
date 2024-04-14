@@ -1,0 +1,51 @@
+[
+    {
+        "title": "MLoggers",
+        "description": "A package of loggers well-suited for machine learning experiments. It integrates with Weights and Biases and provides structured file and console logging.",
+        "links": [
+            {
+                "title": "PyPI",
+                "url": "https://pypi.org/project/mloggers/",
+                "icon": "mdi:package-variant-closed"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/mloggers",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "LData",
+        "description": "A library for managing datasets and benchmarks in NLP experiments. It provides a simple API for using datasets to train and evaluate models across different pre-defined or user-defined language tasks.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/ldata",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "LModels",
+        "description": "A library defining a common API to work with state-of-the-art LLMs. It provides wrappers for the Hugging Face and OpenAI APIs, amongst others.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/lmodels",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "LMethods",
+        "description": "A library containing methods to enhance the capabilities of LLMs, such as Chain-of-Thought, Tree of Thoughts, Decomposed Prompting, etc. A common interface can be used to implement new methods.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/lmethods",
+                "icon": "mdi:github"
+            }
+        ]
+    }
+]

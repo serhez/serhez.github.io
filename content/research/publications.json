@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Co-Adaptation of Agent Morphology and Behaviour with Self-Imitating Reinforcement Learning",
+        "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
+        "venue": "ICML",
+        "year": "2024",
+        "status": "submitted",
+        "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts to transition dynamics as well as to states and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves data-efficiency, behavioural recovery for unseen designs and performance convergence.",
+        "links": [
+            {
+                "title": "arXiv",
+                "url": "https://arxiv.org/abs/1912.09363",
+                "icon": "mdi:file-document-outline"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/cosil",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+
+    {
+        "title": "A Comprehensive Overview of Goal-Conditioned Hierarchical Reinforcement Learning: Algorithms, Challenges, and Future Directions",
+        "authors": ["Sergio Hernández-Gutiérrez", "Vivienne Wang"],
+        "venue": "Seminar work",
+        "year": "2023",
+        "status": "unpublished",
+        "abstract": "Hierarchical reinforcement learning (HRL) methods have recently enabled higher sample efficiency in high-dimensional and long reinforcement learning (RL) problems. Goal-conditioned HRL (GCHRL) approaches concretize these hierarchical ideas by providing reachable sub-goals and considering a chain of policies that model the actions required to reach them, which are either less abstract sub-goals or the agent's native actions. This paper analyses and compares the current state-of-the-art GCHRL methods. Additionally, it discusses the current and future key challenges of the area, including efficient state space exploration, meaningful sub-goal generation and representation, the non-stationarity of policies and the transfer of skills learnt for one problem to solve another. Finally, it contributes to the current discussion on future directions and key focus points within the field of GCHRL.",
+        "links": [
+            {
+                "title": "arXiv",
+                "url": "https://arxiv.org/abs/1912.09363",
+                "icon": "mdi:file-document-outline"
+            }
+        ]
+    },
+
+    {
+        "title": "3D Reconstruction of Fire-Damaged Parchments",
+        "authors": ["Sergio Hernández-Gutiérrez", "Wanyue Zhang", "Ionut Deocanu"],
+        "venue": "Microsoft Blog, UK Faculty Connection",
+        "year": "2018",
+        "status": "published",
+        "abstract": "In this post in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a tool to reconstruct parchments in order to be able to read them.",
+        "links": [
+            {
+                "title": "Microsoft Blog",
+                "url": "https://learn.microsoft.com/en-us/archive/blogs/uk_faculty_connection/3d-reconstruction-of-fire-damage-parchments",
+                "icon": "mdi-microsoft"
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "github": {
+        "title": "Github",
+        "icon": "mdi:github",
+        "url": "https://github.com/serhez",
+        "username": "serhez"
+    },
+    "linkedin": {
+        "title": "LinkedIn",
+        "icon": "mdi:linkedin",
+        "url": "https://www.linkedin.com/in/serhez/",
+        "username": "serhez"
+    },
+    "email": {
+        "title": "email",
+        "icon": "mdi:email",
+        "url": "mailto:contact.sergiohernandez@gmail.com"
+    }
+}
