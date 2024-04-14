@@ -26,17 +26,21 @@ definePageMeta({
                         <h2>
                             Machine Learning Scientist
                         </h2>
-                        <h2>
-                            {{ emojis.pin }} Helsinki, Finland
-                        </h2>
+                        <div class="flex gap-2 items-center">
+                            <i class="pi pi-map-marker" style="font-size: 24px" />
+                            <h2>Helsinki, Finland</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4 text-xl text-zinc-700">
                     <p>I am a ML scientist currently looking for
-                        PhD opportunities starting from autumn 2024. I have experience designing and employing <strong>deep
+                        PhD opportunities starting from autumn 2024. I have experience designing and employing
+                        <strong>deep
                             learning</strong> models, <strong>reinforcement learning</strong> and <strong>imitation
-                            learning</strong> approaches to solve complex <strong>reasoning problems</strong>. Check out my
-                        <fancy-link to="/research" class="text-sky-400 after:content-['_↗']">research output </fancy-link>
+                            learning</strong> approaches to solve complex <strong>reasoning problems</strong>. Check out
+                        my
+                        <fancy-link to="/research" class="text-sky-400 after:content-['_↗']">research output
+                        </fancy-link>
                         for
                         more.
                     </p>
@@ -46,7 +50,8 @@ definePageMeta({
                         <strong>University College London (UCL)</strong>. I have worked
                         as an
                         <strong>engineer/scientist for +3 years</strong> in Spain, Scotland and Finland, in
-                        companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong> and <strong>PwC</strong>.
+                        companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong> and
+                        <strong>PwC</strong>.
                         Check out my <fancy-link to="/resume">resume</fancy-link> for more.
                     </p>
                 </div>
