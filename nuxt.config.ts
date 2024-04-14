@@ -52,11 +52,6 @@ export default defineNuxtConfig({
             preload: ['php', 'ts', 'bash', 'md', 'yaml', 'html', 'vue'],
         },
     },
-    // nitro: {
-    //     prerender: {
-    //         routes: ['/sitemap.xml', '/rss.xml'],
-    //     },
-    // },
     modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/image', 'nuxt-icon', 'nuxt-primevue'],
     css: ['vue-final-modal/style.css'],
     primevue: {
