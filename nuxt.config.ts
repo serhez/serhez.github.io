@@ -28,18 +28,21 @@ export default defineNuxtConfig({
             ],
         },
     },
-    generate: {
-        crawler: false,
+    nitro: {
+        prerender: {
+            crawlLinks: true,
+            failOnError: false,
+        },
     },
     target: 'static',
     experimental: {
         componentIslands: true,
     },
-    // runtimeConfig: {
-    //     public: {
-    //         siteUrl: 'https://sergiohg.com',
-    //     },
-    // },
+    runtimeConfig: {
+        public: {
+            siteUrl: 'https://sergiohg.com',
+        },
+    },
     typescript: {
         shim: false,
     },
