@@ -34,7 +34,7 @@ export default defineNuxtConfig({
             failOnError: false,
         },
     },
-    target: 'static',
+    // target: 'static',
     experimental: {
         componentIslands: true,
     },
