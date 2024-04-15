@@ -83,7 +83,7 @@
                 <h1 class="text-4xl">Courses (non-exhaustive)</h1>
                 <div class="flex flex-row gap-4">
                     <div class="flex flex-col gap-1 basis-1/2">
-                        <h2>Masters</h2>
+                        <h2>Post-graduate</h2>
                         <ul>
                             <li>Statistical NLP</li>
                             <li>Reinforcement Learning</li>
@@ -100,7 +100,7 @@
                         </ul>
                     </div>
                     <div class="flex flex-col gap-1 basis-1/2">
-                        <h2>Bachelors</h2>
+                        <h2>Graduate</h2>
                         <ul>
                             <li>Discrete Mathematics</li>
                             <li>Mathematics & Statistics</li>
