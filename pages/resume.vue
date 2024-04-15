@@ -43,7 +43,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><strong>Backend Software Engineer</strong> — Cabify</h2>
                     <p>January 2022 — August 2022</p>
-                    <p>Cabify’s is a spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
+                    <p>Cabify is a spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
                         its
                         smartphone mobile
                         app. It was the <strong>first Spanish unicorn</strong>. I worked on Cabify’s <strong>matching
