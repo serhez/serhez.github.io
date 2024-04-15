@@ -11,7 +11,8 @@ const model = defineModel<{
 </script>
 
 <template>
-    <div class="p-8 bg-zinc-50 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <div
+        class="m-2 p-8 lg:p-14 bg-zinc-50 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
         <div class="flex flex-col divide-y-2">
             <div class="flex flex-col gap-2 pb-3">
                 <h2 class="text-xl font-bold tracking-tight sm:text-2xl sm:leading-tight">{{ model?.title }}</h2>

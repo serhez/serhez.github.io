@@ -16,7 +16,7 @@ function togglePopup(publication: any) {
     <main>
         <div class="flex flex-col gap-12">
             <div class="flex flex-col gap-6">
-                <h1 class="max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight">
+                <h1>
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
@@ -46,7 +46,7 @@ function togglePopup(publication: any) {
                 </div>
             </div>
             <div class="flex flex-col gap-0">
-                <h1 class="max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight">
+                <h1>
                     Publications
                 </h1>
                 <research-table class="w-full" :publications="publications" @click="togglePopup" />

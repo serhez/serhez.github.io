@@ -26,4 +26,16 @@ import 'primevue/resources/themes/aura-light-noir/theme.css';
     opacity: 0;
     transform: translate3d(5px, 0px, 0px);
 }
+
+h1 {
+    @apply max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight;
+}
+
+h2 {
+    @apply text-lg tracking-tight sm:text-xl sm:leading-tight;
+}
+
+p {
+    text-align: justify;
+}
 </style>

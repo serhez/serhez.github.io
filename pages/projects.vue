@@ -5,7 +5,7 @@ import projects from '@/content/projects.json';
 <template>
     <main>
         <div class="flex flex-col gap-6">
-            <h1 class="max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight">
+            <h1>
                 Software libraries
             </h1>
             <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">

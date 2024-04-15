@@ -1,8 +1,8 @@
 <template>
     <main class="flex flex-col lg:flex-row gap-20 divide">
         <div class="flex flex-col gap-12 basis-3/5">
-            <div class="flex flex-col gap-4">
-                <h1 class="text-4xl">Education</h1>
+            <div class="flex flex-col gap-6">
+                <h1>Education</h1>
                 <div class="flex flex-col gap-1">
                     <h2><strong>MSc in Machine learning, Data Science and Artificial Intelligence</strong> —
                         Aalto
@@ -17,8 +17,8 @@
                     <p><strong>First Class</strong> (1:1) grade. Minor in Entrepreneurship.</p>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
-                <h1 class="text-4xl">Professional Experience</h1>
+            <div class="flex flex-col gap-6">
+                <h1>Professional Experience</h1>
                 <div class="flex flex-col gap-1">
                     <h2><strong>Research Assistant</strong> — Intelligent Robotics Group,   Aalto University
                     </h2>
@@ -27,7 +27,7 @@
                         supervisors Prof. Ville
                         Kyrki and Prof. Kevin Luck for the previous 6 months. I incorporate an <strong>imitation
                             learning</strong> signal
-                        measuring the behavioral similarity between different designs of the agent in the
+                        measuring the behavioral similarity between different morphologies in the
                         <strong>reinforcement learning co-adaptation
                             setting</strong> (i.e., the design and behavior of an agent are jointly optimized). We have
                         observed that
@@ -43,7 +43,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><strong>Backend Software Engineer</strong> — Cabify</h2>
                     <p>January 2022 — August 2022</p>
-                    <p>Cabify is a spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
+                    <p>Cabify is a Spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
                         its
                         smartphone mobile
                         app. It was the <strong>first Spanish unicorn</strong>. I worked on Cabify’s <strong>matching
@@ -79,12 +79,12 @@
             </div>
         </div>
         <div class="flex flex-col gap-12 basis-2/5">
-            <div class="flex flex-col gap-4">
-                <h1 class="text-4xl">Courses (non-exhaustive)</h1>
+            <div class="flex flex-col gap-6">
+                <h1>Courses (non-exhaustive)</h1>
                 <div class="flex flex-row gap-4">
                     <div class="flex flex-col gap-1 basis-1/2">
                         <h2>Post-graduate</h2>
-                        <ul>
+                        <ul class="list-disc pl-6">
                             <li>Statistical NLP</li>
                             <li>Reinforcement Learning</li>
                             <li>Nonlinear Optimization</li>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="flex flex-col gap-1 basis-1/2">
                         <h2>Graduate</h2>
-                        <ul>
+                        <ul class="list-disc pl-6">
                             <li>Discrete Mathematics</li>
                             <li>Mathematics & Statistics</li>
                             <li>Computer Architecture & Concurrency</li>
@@ -114,8 +114,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
-                <h1 class="text-4xl">Certifications</h1>
+            <div class="flex flex-col gap-6">
+                <h1>Certifications</h1>
                 <div class="flex flex-col gap-1">
                     <h2><fancy-link
                             to="https://www.coursera.org/account/accomplishments/verify/6WN9QM9WWXWG?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link"
@@ -135,8 +135,8 @@
                     <p>September 2018</p>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
-                <h1 class="text-4xl">Skills</h1>
+            <div class="flex flex-col gap-6">
+                <h1>Skills</h1>
                 <div class="flex flex-col gap-1">
                     <h2>Most used in the last year</h2>
                     <p>Python, C++ & CUDA, web (Go, Vue, REST APIs...).</p>
@@ -157,23 +157,3 @@
         </div>
     </main>
 </template>
-
-<style scoped>
-h1 {
-    @apply max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 1.3rem;
-}
-
-p {
-    text-align: justify;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-</style>
