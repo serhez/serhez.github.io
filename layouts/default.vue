@@ -12,7 +12,7 @@ useHead({
 </script>
 
 <template>
-    <main class="container mx-auto my-16 flex gap-16 max-w-6xl flex-1 flex-col px-6 sm:px-12">
+    <main class="container mx-auto my-16 flex md:gap-16 gap-8 max-w-6xl flex-1 flex-col px-8 sm:px-12">
         <navigation />
         <section class="flex flex-1 flex-col">
             <slot />

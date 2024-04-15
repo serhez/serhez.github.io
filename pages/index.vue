@@ -78,6 +78,6 @@ h2 {
 }
 
 p {
-    @apply text-xl text-zinc-700;
+    @apply text-base sm:text-lg md:text-xl text-zinc-700;
 }
 </style>

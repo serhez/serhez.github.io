@@ -36,6 +36,6 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    @apply lg:text-justify text-left;
 }
 </style>
