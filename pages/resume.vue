@@ -20,9 +20,9 @@
             <div class="flex flex-col gap-4">
                 <h1 class="text-4xl">Professional Experience</h1>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Research Assistant</strong> - Intelligent Robotics Group,   Aalto University
+                    <h2><strong>Research Assistant</strong> — Intelligent Robotics Group,   Aalto University
                     </h2>
-                    <p>May 2023 - August 2023</p>
+                    <p>May 2023 — August 2023</p>
                     <p>I worked on an ongoing <strong>individual research project</strong> I had been developing with
                         supervisors Prof. Ville
                         Kyrki and Prof. Kevin Luck for the previous 6 months. I incorporate an <strong>imitation
