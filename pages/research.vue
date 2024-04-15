@@ -44,7 +44,7 @@ function togglePopup(publication: any) {
                         behavior.</p>
                 </div>
             </div>
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-0">
                 <h1 class="max-w-2xl text-2xl font-bold tracking-tight sm:text-3xl sm:leading-tight">
                     Publications
                 </h1>

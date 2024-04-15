@@ -56,12 +56,12 @@ function onRowClick(event: any) {
             @row-click="onRowClick" :globalFilterFields="['title', 'authors', 'venue', 'year', 'status']"
             class="cursor-pointer">
             <template #header>
-                <div class="flex gap-2">
+                <div class="flex flex-row-reverse gap-2">
+                    <InputText v-model="filters['global'].value" placeholder="Keyword Search"
+                        class="py-1 px-2 border-slate-300 border-[1px] font-normal inset-y-0 right-0 start-0" />
                     <InputIcon class="flex items-center">
                         <i class="pi pi-search" style="font-size: 20px" />
                     </InputIcon>
-                    <InputText v-model="filters['global'].value" placeholder="Keyword Search"
-                        class="py-1 px-2 border-slate-300 border-[1px] font-normal" />
                 </div>
             </template>
             <template #empty> No publications found. </template>
