@@ -18,11 +18,10 @@ definePageMeta({
         <div class="flex flex-row gap-10">
             <div class="flex flex-col gap-10">
                 <div class="flex flex-col gap-4">
-                    <h1 class="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl sm:leading-tight">
+                    <h1>
                         Sergio Hernández Gutiérrez
                     </h1>
-                    <div
-                        class="flex flex-col gap-1 text-zinc-700 max-w-2xl text-2xl tracking-tight sm:text-3xl sm:leading-tight">
+                    <div class="flex flex-col gap-1">
                         <h2>
                             Machine Learning Scientist
                         </h2>
@@ -32,7 +31,7 @@ definePageMeta({
                         </div>
                     </div>
                 </div>
-                <div class="max-w-2xl space-y-4 text-xl text-zinc-700">
+                <div class="max-w-2xl space-y-4">
                     <p>I am a ML scientist currently looking for
                         PhD opportunities starting from autumn 2024. I have experience designing and employing
                         <strong>deep
@@ -68,3 +67,17 @@ w-6" />
         </div>
     </main>
 </template>
+
+<style scoped>
+h1 {
+    @apply max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl sm:leading-tight;
+}
+
+h2 {
+    @apply text-zinc-700 max-w-2xl text-2xl tracking-tight sm:text-3xl sm:leading-tight;
+}
+
+p {
+    @apply text-xl text-zinc-700;
+}
+</style>
