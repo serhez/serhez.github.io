@@ -139,7 +139,7 @@
                 <h1 class="text-4xl">Skills</h1>
                 <div class="flex flex-col gap-1">
                     <h2>Most used in the last year</h2>
-                    <p>C/C++, Python, web (Go, Vue, REST APIs...).</p>
+                    <p>Python, C++ & CUDA, web (Go, Vue, REST APIs...).</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2>Libraries</h2>
