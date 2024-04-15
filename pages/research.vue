@@ -37,10 +37,10 @@ function togglePopup(publication: any) {
                             process.</li>
                     </ul>
                     <p>My <strong>long term ambition</strong> is to design models capable of not just imitating training
-                        data, but of discovering and displaying new knowledge and behavior. Today, even the largest
+                        data, but of discovering and displaying new knowledge. Today, even the largest
                         models
-                        available struggle
-                        to capture and extrapolate complex reasoning patterns in data in order to exhibit valuable novel
+                        struggle
+                        to extrapolate complex reasoning patterns in data and exhibit valuable novel
                         behavior.</p>
                 </div>
             </div>
