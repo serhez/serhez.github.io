@@ -7,7 +7,6 @@ const showPopup = ref(false);
 const selected = ref(null);
 
 function togglePopup(publication: any) {
-    console.log(publication);
     selected.value = publication;
     showPopup.value = !showPopup.value;
 }

@@ -39,7 +39,7 @@ definePageMeta({
                             learning</strong> models, <strong>reinforcement learning</strong> and <strong>imitation
                             learning</strong> approaches to solve complex <strong>reasoning problems</strong>. Check out
                         my
-                        <fancy-link to="/research" class="text-sky-400 after:content-['_↗']">research output
+                        <fancy-link to="/research">research output
                         </fancy-link>
                         for
                         more.
