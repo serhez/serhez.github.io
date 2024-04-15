@@ -26,7 +26,8 @@ function togglePopup(publication: any) {
                         solve <strong>multi-step reasoning problems via task decomposition</strong>.
                         My <strong>interests</strong> at the moment include:</p>
                     <ul class="list-disc pl-6">
-                        <li><strong>Knowledge representation</strong> in deep models (e.g., embeddings), particularly
+                        <li><strong>Knowledge representation</strong> in deep models (e.g., latent embedding spaces),
+                            particularly
                             using formal
                             languages.
                         </li>
