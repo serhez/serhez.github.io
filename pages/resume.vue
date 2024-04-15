@@ -91,7 +91,7 @@
                             <li>Deep Learning</li>
                             <li>Research Project in ML</li>
                             <li>Gaussian Processes</li>
-                            <li>Supervised Method</li>
+                            <li>Supervised Methods</li>
                             <li>Bayesian Data Analysis</li>
                             <li>Data Mining</li>
                             <li>Federated Learning</li>
