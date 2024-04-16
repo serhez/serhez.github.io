@@ -56,9 +56,9 @@ function togglePopup(publication: any) {
         <!-- Popup -->
         <VueFinalModal v-model="showPopup" display-directive="if" :hide-overlay="false" overlay-transition="vfm-fade"
             content-transition="vfm-fade" :click-to-close="true" :esc-to-close="true" background="non-interactive"
-            :lock-scroll="true" :reserve-scroll-bar-gap="true" swipe-to-close="up"
-            class="flex justify-center items-center" content-class="max-w-2xl mx-4 space-y-2">
-            <research-popup v-model="selected" />
+            :lock-scroll="true" :reserve-scroll-bar-gap="true" class="flex justify-center items-center"
+            content-class="flex w-full h-full lg:h-fit lg:max-h-screen lg:max-w-2xl lg:mx-4 lg:space-y-2">
+            <research-popup v-model="selected" @close="showPopup = false" />
         </VueFinalModal>
     </main>
 </template>
