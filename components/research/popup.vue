@@ -32,7 +32,7 @@ defineEmits(['close']);
                 </div>
             </div>
             <div class="flex flex-col gap-4 pt-3">
-                <p class="text-md text-zinc-600 text-justify">{{ model?.abstract }}</p>
+                <p class="text-zinc-600">{{ model?.abstract }}</p>
                 <div class="flex gap-6">
                     <a v-for="link in model?.links" :key="link.title" :href="link.url" :title="link.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
