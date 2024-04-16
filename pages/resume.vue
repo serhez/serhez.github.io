@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-col lg:flex-row gap-20 divide">
+    <main class="flex flex-col lg:flex-row gap-12 lg:gap-20">
         <div class="flex flex-col gap-12 basis-3/5">
             <div class="flex flex-col gap-6">
                 <h1>Education</h1>
