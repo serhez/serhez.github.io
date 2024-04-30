@@ -56,8 +56,7 @@
                     <p>I <strong>designed and developed software systems</strong> for Rockstar’s large and highly
                         complex
                         virtual game
-                        environments to enable the creation of gameplay content for their titles. Technologies used: C#,
-                        C++.</p>
+                        environments to enable the creation of gameplay content for their titles.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>Technology Consultant</strong> — PwC</h2>
@@ -139,11 +138,11 @@
                 <h1>Skills</h1>
                 <div class="flex flex-col gap-1">
                     <h2>Most used in the last year</h2>
-                    <p>Python, C++ & CUDA, web (Go, Vue, REST APIs...).</p>
+                    <p>Python, C++ & CUDA, web (Go, Vue and CSS).</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2>Libraries</h2>
-                    <p>Numpy, Matplotlib, PyTorch, Hugging Face (e.g., transformers), NLTK, Gym, Mujoco, W&B...</p>
+                    <p>Numpy, Matplotlib, PyTorch, Hugging Face (e.g., transformers), Gym, Mujoco, W&B...</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2>Other technologies</h2>

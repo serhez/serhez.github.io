@@ -35,7 +35,7 @@ function togglePopup(publication: any) {
                             (e.g., mathematics or logic).
                         </li>
                         <li><strong>Reinforcement and imitation learning</strong>, particularly meta-learning the RL/IL
-                            process.</li>
+                            process outside of classical algorithmic approaches.</li>
                     </ul>
                     <p>My <strong>long term ambition</strong> is to design models capable of not just imitating training
                         data, but of discovering and displaying new knowledge. Today, even the largest
