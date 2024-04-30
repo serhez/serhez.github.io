@@ -22,7 +22,13 @@
         "year": "2023",
         "status": "unpublished",
         "abstract": "Hierarchical reinforcement learning (HRL) methods have recently enabled higher sample efficiency in high-dimensional and long reinforcement learning (RL) problems. Goal-conditioned HRL (GCHRL) approaches concretize these hierarchical ideas by providing reachable sub-goals and considering a chain of policies that model the actions required to reach them, which are either less abstract sub-goals or the agent's native actions. This paper analyses and compares the current state-of-the-art GCHRL methods. Additionally, it discusses the current and future key challenges of the area, including efficient state space exploration, meaningful sub-goal generation and representation, the non-stationarity of policies and the transfer of skills learnt for one problem to solve another. Finally, it contributes to the current discussion on future directions and key focus points within the field of GCHRL.",
-        "links": []
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1YSmY4q4-I3WdhUrqD_MyJmcspv-ckyLm/view?usp=share_link",
+                "icon": "tabler:file-type-pdf"
+            }
+        ]
     },
 
     {
