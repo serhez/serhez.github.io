@@ -71,7 +71,7 @@ function onRowClick(event: any) {
     <div class="card">
         <DataTable v-model:filters="filters" :value="props.publications" sortMode="multiple" removableSort paginator
             showGridlines :rows="5" dataKey="id" filterDisplay="menu" :loading="loading" :rowHover="true"
-            @row-click="onRowClick" :globalFilterFields="['title', 'authors', 'venue', 'year', 'status']"
+            @row-click="onRowClick" :globalFilterFields="['title', 'authors', 'venue', 'year', 'type', 'status']"
             class="cursor-pointer">
             <template #header>
                 <div class="flex flex-row md:flex-row-reverse gap-2">
