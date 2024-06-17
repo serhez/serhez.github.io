@@ -9,7 +9,8 @@
                         University,
                         Finland</h2>
                     <p>2022 — In progress</p>
-                    <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0.</p>
+                    <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all classes), pending my
+                        thesis.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>BSc Computer Science</strong> — University College London, UK</h2>
@@ -31,13 +32,11 @@
                         <strong>reinforcement learning co-adaptation
                             setting</strong> (i.e., the design and behavior of an agent are jointly optimized). We have
                         observed that
-                        including this signal <strong>improves performance by 15-20%</strong> in terms of achieved
-                        rewards.
+                        including this signal <strong>improves achieved rewards</strong>; these benefits scale
+                        proportionally to the complexity of the task.
                         I gave a <strong>40-min.
-                            talk</strong> at the department about the project. This work culminated in a paper
-                        co-authored
-                        with Prof.
-                        Kyrki and Prof. Luck, which we have <strong>submitted for ICML 2024</strong>.
+                            talk</strong> at the department about the project. This work culminated in a paper, which we
+                        have <strong>submitted for CoRL 2024</strong>.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">
@@ -82,7 +81,7 @@
                 <h1>Courses (non-exhaustive)</h1>
                 <div class="flex flex-row gap-4">
                     <div class="flex flex-col gap-1 basis-1/2">
-                        <h2>Post-graduate</h2>
+                        <h2>Graduate</h2>
                         <ul class="list-disc pl-6">
                             <li>Statistical NLP</li>
                             <li>Reinforcement Learning</li>
@@ -99,7 +98,7 @@
                         </ul>
                     </div>
                     <div class="flex flex-col gap-1 basis-1/2">
-                        <h2>Graduate</h2>
+                        <h2>Undergraduate</h2>
                         <ul class="list-disc pl-6">
                             <li>Discrete Mathematics</li>
                             <li>Mathematics & Statistics</li>

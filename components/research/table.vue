@@ -7,7 +7,7 @@ const props = defineProps<{
 }>()
 
 const filters = ref();
-const statuses = ref(['conference', 'workshop', 'article', 'unpublished']);
+const statuses = ref(['conference', 'workshop', 'article', 'unpublished', 'thesis']);
 const loading = ref(false);
 
 const initFilters = () => {
@@ -38,6 +38,24 @@ const getStatus = (status) => {
 
         case 'unpublished':
             return 'warning';
+    }
+};
+const getType = (type) => {
+    switch (type) {
+        case 'journal':
+            return 'success';
+
+        case 'workshop':
+            return 'info';
+
+        case 'seminar':
+            return 'warning';
+
+        case 'thesis':
+            return 'primary';
+
+        case 'article':
+            return 'danger';
     }
 };
 
@@ -84,6 +102,11 @@ function onRowClick(event: any) {
             <Column field="venue" header="Venue" sortable style="min-width: 8rem">
                 <template #body="{ data }">
                     {{ data.venue }}
+                </template>
+            </Column>
+            <Column header="Type" field="type" sortable style="min-width: 6rem">
+                <template #body="{ data }">
+                    <Tag :value="data.type" :severity="getType(data.type)" />
                 </template>
             </Column>
             <Column header="Status" field="status" sortable style="min-width: 6rem">

@@ -47,7 +47,7 @@ function togglePopup(publication: any) {
             </div>
             <div class="flex flex-col gap-0">
                 <h1>
-                    Publications
+                    Research output
                 </h1>
                 <research-table class="w-full" :publications="publications" @click="togglePopup" />
             </div>

@@ -1,12 +1,18 @@
 [
     {
-        "title": "Co-Adaptation of Agent Morphology and Behaviour with Self-Imitating Reinforcement Learning",
+        "title": "Following Ancestral Footsteps: Co-Designing Morphology and Behaviour with Self-Imitation Learning",
         "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
-        "venue": "ICML",
+        "venue": "CoRL",
         "year": "2024",
         "status": "submitted",
-        "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts to transition dynamics as well as to states and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves data-efficiency, behavioural recovery for unseen designs and performance convergence.",
+        "type": "journal",
+        "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
         "links": [
+            {
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1m__d6i2WA7pgBz6B8TFKWo99KqeRt8wa/view?usp=sharing",
+                "icon": "tabler:file-type-pdf"
+            },
             {
                 "title": "GitHub",
                 "url": "https://github.com/serhez/cosil",
@@ -18,9 +24,10 @@
     {
         "title": "A Comprehensive Overview of Goal-Conditioned Hierarchical Reinforcement Learning: Algorithms, Challenges, and Future Directions",
         "authors": ["Sergio Hernández-Gutiérrez", "Vivienne Wang"],
-        "venue": "Seminar work",
+        "venue": "Aalto University",
         "year": "2023",
         "status": "unpublished",
+        "type": "seminar",
         "abstract": "Hierarchical reinforcement learning (HRL) methods have recently enabled higher sample efficiency in high-dimensional and long reinforcement learning (RL) problems. Goal-conditioned HRL (GCHRL) approaches concretize these hierarchical ideas by providing reachable sub-goals and considering a chain of policies that model the actions required to reach them, which are either less abstract sub-goals or the agent's native actions. This paper analyses and compares the current state-of-the-art GCHRL methods. Additionally, it discusses the current and future key challenges of the area, including efficient state space exploration, meaningful sub-goal generation and representation, the non-stationarity of policies and the transfer of skills learnt for one problem to solve another. Finally, it contributes to the current discussion on future directions and key focus points within the field of GCHRL.",
         "links": [
             {
@@ -32,15 +39,33 @@
     },
 
     {
-        "title": "3D Reconstruction of Fire-Damaged Parchments",
-        "authors": ["Sergio Hernández-Gutiérrez", "Wanyue Zhang", "Ionut Deocanu"],
-        "venue": "Microsoft Blog, UK Faculty Connection",
-        "year": "2018",
+        "title": "Modal Logic Theorem Provers and Validity Rates",
+        "authors": ["Sergio Hernández-Gutiérrez", "Robin Hirsch"],
+        "venue": "University College London",
+        "year": "2019",
         "status": "published",
-        "abstract": "In this post in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a parchment-reconstruction tool to read them.",
+        "type": "thesis",
+        "abstract": "During my Bachelor's thesis at UCL, supervised by Prof. Robin Hirsch, I carried out a study on the validity rates of modal logic formulae as their complexity increases (i.e., more allowed connectives and larger formulae). For this purpose, I implemented a frame-based analytical tableau theorem prover for propositional modal logics K, KT, KB, K4, KD and linear modal logic. This implementation was compared to Molle, a state-of-the-art theorem prover for modal logics at the time; this analysis found inconsistencies in the results of both provers, concluding with evidence of Molle's incorrectness on complex formulae.",
         "links": [
             {
-                "title": "Microsoft Blog",
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1EUqOJb5ZK0bOM0Ix1LSmzKXcPGj2d8Pa/view?usp=sharing",
+                "icon": "tabler:file-type-pdf"
+            }
+        ]
+    },
+
+    {
+        "title": "3D Reconstruction of Fire-Damaged Parchments",
+        "authors": ["Sergio Hernández-Gutiérrez", "Wanyue Zhang", "Ionut Deocanu"],
+        "venue": "Microsoft Faculty Connection",
+        "year": "2018",
+        "status": "published",
+        "type": "article",
+        "abstract": "In this article in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a parchment-reconstruction tool to read them.",
+        "links": [
+            {
+                "title": "Microsoft Faculty Connection",
                 "url": "https://learn.microsoft.com/en-us/archive/blogs/uk_faculty_connection/3d-reconstruction-of-fire-damage-parchments",
                 "icon": "mdi-microsoft"
             }

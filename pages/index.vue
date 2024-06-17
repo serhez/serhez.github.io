@@ -5,7 +5,11 @@ import emojis from '@/content/emojis.json';
 useHead({
     title: 'Sergio Hernández Gutiérrez',
     titleTemplate: '%s',
-    meta: [{ name: 'description', content: 'Sergio Hernández Gutiérrez, Machine Learning scientist.' }],
+    meta: [
+        {
+            name: 'description', content: 'Sergio Hernández Gutiérrez, Machine Learning scientist.'
+        }
+    ],
 });
 
 definePageMeta({
@@ -33,10 +37,10 @@ definePageMeta({
                 </div>
                 <div class="max-w-2xl space-y-4">
                     <p>I am a ML scientist currently looking for
-                        PhD opportunities starting from autumn 2024. I have experience designing and employing
-                        <strong>deep
-                            learning</strong> models, <strong>reinforcement learning</strong> and <strong>imitation
-                            learning</strong> approaches to solve complex <strong>reasoning problems</strong>. Check out
+                        PhD opportunities. My current research interests revolve around employing deep models to solve
+                        complex <strong>reasoning or decision-making tasks</strong>, how <strong>knowledge and data representation</strong> affects such
+                        capabilities, as well as learning the reinforcement learning process (<strong>meta-learning</strong>) outside of
+                        classical algorithmic approaches. Check out
                         my
                         <fancy-link to="/research">research output
                         </fancy-link>
@@ -46,7 +50,7 @@ definePageMeta({
                     <p>
                         Originally from the Canary Islands, I am currently finishing my <strong>MSc in ML at Aalto
                             University</strong>. I hold a <strong>BSc in Computer Science</strong> from
-                        <strong>University College London (UCL)</strong>. I have worked
+                        University College London (<strong>UCL</strong>). I have worked
                         as an
                         <strong>engineer/scientist for +3 years</strong> in Spain, Scotland and Finland, in
                         companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong> and
@@ -55,7 +59,7 @@ definePageMeta({
                     </p>
                 </div>
                 <div class="flex gap-6">
-                    <a v-for="social in socials" :key="social.title" :href="social.url" :title="social.title"
+                    <a v-for="social in socials":key="social.title":href="social.url":title="social.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
                         <icon :name="social.icon" class="h-6
 w-6" />
