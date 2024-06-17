@@ -36,10 +36,12 @@ definePageMeta({
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I am a ML scientist currently looking for
+                    <p>I am a Machine Learning Scientist currently looking for
                         PhD opportunities. My current research interests revolve around employing deep models to solve
-                        complex <strong>reasoning or decision-making tasks</strong>, how <strong>knowledge and data representation</strong> affects such
-                        capabilities, as well as learning the reinforcement learning process (<strong>meta-learning</strong>) outside of
+                        complex <strong>reasoning or decision-making tasks</strong>, how <strong>knowledge and data
+                            representation</strong> affects such
+                        capabilities, as well as learning the reinforcement learning process
+                        (<strong>meta-learning</strong>) outside of
                         classical algorithmic approaches. Check out
                         my
                         <fancy-link to="/research">research output
@@ -48,7 +50,8 @@ definePageMeta({
                         more.
                     </p>
                     <p>
-                        Originally from the Canary Islands, I am currently finishing my <strong>MSc in ML at Aalto
+                        Originally from the Canary Islands, I am currently finishing my <strong>MSc in Machine
+                            Learning</strong> at <strong>Aalto
                             University</strong>. I hold a <strong>BSc in Computer Science</strong> from
                         University College London (<strong>UCL</strong>). I have worked
                         as an
