@@ -10,7 +10,7 @@
                         Finland</h2>
                     <p>2022 — In progress</p>
                     <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all classes), pending my
-                        thesis.</p>
+                        thesis. Received the Dean's Scholarship for outstanding academic performance.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>BSc Computer Science</strong> — University College London, UK</h2>
