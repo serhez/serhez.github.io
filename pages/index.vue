@@ -37,8 +37,9 @@ definePageMeta({
                 </div>
                 <div class="max-w-2xl space-y-4">
                     <p>I am a Machine Learning Scientist currently looking for
-                        PhD opportunities. My current research interests revolve around employing deep models to solve
-                        complex <strong>reasoning or decision-making tasks</strong>, how <strong>knowledge and data
+                        PhD opportunities. My current research interests revolve around employing <strong>deep
+                            models</strong> to solve
+                        complex <strong>reasoning and decision-making tasks</strong>, how <strong>knowledge and data
                             representation</strong> affects such
                         capabilities, as well as learning the reinforcement learning process
                         (<strong>meta-learning</strong>) outside of
@@ -62,10 +63,9 @@ definePageMeta({
                     </p>
                 </div>
                 <div class="flex gap-6">
-                    <a v-for="social in socials":key="social.title":href="social.url":title="social.title"
+                    <a v-for="social in socials" :key="social.title" :href="social.url" :title="social.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
-                        <icon :name="social.icon" class="h-6
-w-6" />
+                        <icon :name="social.icon" class="h-6 w-6" />
                     </a>
                 </div>
             </div>

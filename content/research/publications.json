@@ -1,12 +1,31 @@
 [
     {
+        "title": "Solving Reasoning Problems with Large Language Models via Recursive Decomposition",
+        "authors": ["Sergio Hernández-Gutiérrez", "Pekka Marttinen", "Alexander Nikitin", "Minttu Alakuijala"],
+        "venue": "Aalto University",
+        "year": "2024",
+        "status": "published",
+        "type": "thesis",
+        "abstract": "This thesis studies the recursive decomposition of reasoning problems with large language models. We propose two methods implementing this technique: one enforcing sub-problem independence during the decomposition of problems and the other enabling the modeling of dependencies between sub-problems. We evaluate these methods on two benchmarks with six difficulty levels each and on two in-context settings with contrasting degrees of task-specific data availability. We find that our methods employing recursive decomposition outperform state-of-the-art baselines as the complexity of the tasks increases while being more time and space-efficient. We additionally provide an analysis of the errors the methods made during our experiments; they also can recover from mistakes made during the problem-solving process. The formulation of our methodology enables its integration into generic intelligent systems safe parallelization of a great part of its execution, as well as its composition with other state-of-the-art frameworks. We open-source our implementation of these methods, along with a wider set of tools to augment the software landscape for reasoning research with large language models.",
+        "recognitions": "",
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1-7M4VIyXvbIWQL9-pllrtX1UrDSnccgM/view?usp=share_link",
+                "icon": "tabler:file-type-pdf"
+            }
+        ]
+    },
+
+    {
         "title": "Following Ancestral Footsteps: Co-Designing Morphology and Behaviour with Self-Imitation Learning",
         "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
-        "venue": "CoRL",
+        "venue": "EARL (RSS), oral presentation",
         "year": "2024",
-        "status": "submitted",
-        "type": "journal",
+        "status": "published",
+        "type": "workshop",
         "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
+        "recognitions": "Best Workshop Paper Award",
         "links": [
             {
                 "title": "PDF",
@@ -29,6 +48,7 @@
         "status": "unpublished",
         "type": "seminar",
         "abstract": "Hierarchical reinforcement learning (HRL) methods have recently enabled higher sample efficiency in high-dimensional and long reinforcement learning (RL) problems. Goal-conditioned HRL (GCHRL) approaches concretize these hierarchical ideas by providing reachable sub-goals and considering a chain of policies that model the actions required to reach them, which are either less abstract sub-goals or the agent's native actions. This paper analyses and compares the current state-of-the-art GCHRL methods. Additionally, it discusses the current and future key challenges of the area, including efficient state space exploration, meaningful sub-goal generation and representation, the non-stationarity of policies and the transfer of skills learnt for one problem to solve another. Finally, it contributes to the current discussion on future directions and key focus points within the field of GCHRL.",
+        "recognitions": "",
         "links": [
             {
                 "title": "PDF",
@@ -46,6 +66,7 @@
         "status": "published",
         "type": "thesis",
         "abstract": "During my Bachelor's thesis at UCL, supervised by Prof. Robin Hirsch, I carried out a study on the validity rates of modal logic formulae as their complexity increases (i.e., more allowed connectives and larger formulae). For this purpose, I implemented a frame-based analytical tableau theorem prover for propositional modal logics K, KT, KB, K4, KD and linear modal logic. This implementation was compared to Molle, a state-of-the-art theorem prover for modal logics at the time; this analysis found inconsistencies in the results of both provers, concluding with evidence of Molle's incorrectness on complex formulae.",
+        "recognitions": "",
         "links": [
             {
                 "title": "PDF",
@@ -63,6 +84,7 @@
         "status": "published",
         "type": "article",
         "abstract": "In this article in partnership with Microsoft, as a Microsoft Student Partner, I give an introduction to 3D reconstruction of physical objects. In particular, I explain the process of reconstructing fire-damaged parchments and, as part of my 2nd year project at UCL, building a product for archivists and other professionals who are in need of a parchment-reconstruction tool to read them.",
+        "recognitions": "",
         "links": [
             {
                 "title": "Microsoft Faculty Connection",

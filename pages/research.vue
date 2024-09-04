@@ -20,10 +20,11 @@ function togglePopup(publication: any) {
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
-                    <p>I am currently working on my <strong>Master's thesis</strong>, exploring how large foundation
+                    <p>I recently submitted my <strong>Master's thesis</strong>, exploring how language
                         models can be used
                         to
-                        solve <strong>multi-step reasoning problems via task decomposition</strong>.
+                        solve <strong>multi-step reasoning problems via task decomposition</strong> as te complexity of
+                        the tasks increases.
                         My <strong>interests</strong> at the moment include:</p>
                     <ul class="list-disc pl-6">
                         <li><strong>Knowledge representation</strong> in deep models (e.g., latent embedding spaces),
@@ -32,7 +33,7 @@ function togglePopup(publication: any) {
                             languages.
                         </li>
                         <li>Deep architectures and methods for solving complex <strong>reasoning problems</strong>
-                            (e.g., mathematics or logic).
+                            (e.g., mathematics, programming tasks, planning, etc.).
                         </li>
                         <li><strong>Reinforcement and imitation learning</strong>, particularly meta-learning the RL/IL
                             process outside of classical algorithmic approaches.</li>

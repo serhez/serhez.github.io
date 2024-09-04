@@ -84,6 +84,11 @@ function onRowClick(event: any) {
             </template>
             <template #empty> No publications found. </template>
             <template #loading> Loading publications data. Please wait. </template>
+            <Column header="Type" field="type" sortable style="min-width: 6rem">
+                <template #body="{ data }">
+                    <Tag :value="data.type" :severity="getType(data.type)" />
+                </template>
+            </Column>
             <Column field="title" header="Title" style="min-width: 12rem">
                 <template #body="{ data }">
                     {{ data.title }}
@@ -94,24 +99,19 @@ function onRowClick(event: any) {
                     {{ data.authors.join(', ') }}
                 </template>
             </Column>
-            <Column field="year" header="Year" sortable style="min-width: 6rem">
+            <Column field="year" header="Year" sortable style="min-width: 5rem">
                 <template #body="{ data }">
                     {{ data.year }}
                 </template>
             </Column>
-            <Column field="venue" header="Venue" sortable style="min-width: 8rem">
+            <Column field="venue" header="Publisher" sortable style="min-width: 6rem">
                 <template #body="{ data }">
                     {{ data.venue }}
                 </template>
             </Column>
-            <Column header="Type" field="type" sortable style="min-width: 6rem">
+            <Column field="recognitions" header="Recognitions" style="min-width: 12rem">
                 <template #body="{ data }">
-                    <Tag :value="data.type" :severity="getType(data.type)" />
-                </template>
-            </Column>
-            <Column header="Status" field="status" sortable style="min-width: 6rem">
-                <template #body="{ data }">
-                    <Tag :value="data.status" :severity="getStatus(data.status)" />
+                    {{ data.recognitions }}
                 </template>
             </Column>
             <Column header="Links" field="links" style="min-width: 6rem">
