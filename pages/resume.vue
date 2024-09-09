@@ -14,8 +14,8 @@
                             <p class="opacity-80"><i>September 2022 — August 2024</i></p>
                         </div>
                     </div>
-                    <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all classes), pending my
-                        thesis. Received the Dean's Scholarship for outstanding academic performance.</p>
+                    <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all courses), pending my
+                        thesis. Received the <strong>Dean's Scholarship</strong> for outstanding academic performance.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
@@ -157,7 +157,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><fancy-link
                             to="https://www.coursera.org/account/accomplishments/verify/6WN9QM9WWXWG?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link"
-                            :underline="false">
+                            :underline="false;">
                             <strong>Mathematics for Machine Learning:
                                 Linear Algebra</strong> — Imperial College London (Coursera)</fancy-link>
                     </h2>
@@ -166,7 +166,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><fancy-link
                             to="https://www.coursera.org/account/accomplishments/verify/QTF4Y8FXGE9R?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link"
-                            :underline="false"><strong>Machine
+                            :underline="false;"><strong>Machine
                                 Learning</strong> — Stanford
                             University (Coursera)</fancy-link>
                     </h2>
