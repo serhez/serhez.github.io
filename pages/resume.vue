@@ -4,26 +4,41 @@
             <div class="flex flex-col gap-6">
                 <h1>Education</h1>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>MSc in Machine learning, Data Science and Artificial Intelligence</strong> —
-                        Aalto
-                        University,
-                        Finland</h2>
-                    <p>2022 — In progress</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/aalto_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>MSc in Machine learning, Data Science and Artificial Intelligence</strong> —
+                                Aalto
+                                University,
+                                Finland</h2>
+                            <p class="opacity-80"><i>September 2022 — August 2024</i></p>
+                        </div>
+                    </div>
                     <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all classes), pending my
                         thesis. Received the Dean's Scholarship for outstanding academic performance.</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>BSc Computer Science</strong> — University College London, UK</h2>
-                    <p>2016 — 2019</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/ucl_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>BSc Computer Science</strong> — University College London, UK</h2>
+                            <p class="opacity-80"><i>September 2016 — June 2019</i></p>
+                        </div>
+                    </div>
                     <p><strong>First Class</strong> (1:1) grade. Minor in Entrepreneurship.</p>
                 </div>
             </div>
             <div class="flex flex-col gap-6">
                 <h1>Professional Experience</h1>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Research Assistant</strong> — Intelligent Robotics Group,   Aalto University
-                    </h2>
-                    <p>May 2023 — August 2023</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/aalto_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Research Assistant</strong> — Intelligent Robotics Group,   Aalto University
+                            </h2>
+                            <p class="opacity-80"><i>May 2023 — August 2023</i></p>
+                        </div>
+                    </div>
                     <p>I worked on an ongoing <strong>individual research project</strong> I had been developing with
                         supervisors Prof. Ville
                         Kyrki and Prof. Kevin Luck for the previous 6 months. I incorporate an <strong>imitation
@@ -40,8 +55,13 @@
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Backend Software Engineer</strong> — Cabify</h2>
-                    <p>January 2022 — August 2022</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/cabify_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Backend Software Engineer</strong> — Cabify</h2>
+                            <p class="opacity-80"><i>January 2022 — August 2022</i></p>
+                        </div>
+                    </div>
                     <p>Cabify is a Spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
                         its
                         smartphone mobile
@@ -50,29 +70,49 @@
                         match incoming riders’ journey requests and suitable drivers.</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Content Systems Engineer</strong> — Rockstar Games</h2>
-                    <p>November 2020 — June 2021</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/rockstar_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Content Systems Engineer</strong> — Rockstar Games</h2>
+                            <p class="opacity-80"><i>November 2020 — June 2021</i></p>
+                        </div>
+                    </div>
                     <p>I <strong>designed and developed software systems</strong> for Rockstar’s large and highly
                         complex
                         virtual game
                         environments to enable the creation of gameplay content for their titles.</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Technology Consultant</strong> — PwC</h2>
-                    <p>May 2019 — October 2020</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/pwc_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Technology Consultant</strong> — PwC</h2>
+                            <p class="opacity-80"><i>May 2019 — October 2020</i></p>
+                        </div>
+                    </div>
                     <p>I mainly worked on two areas: <strong>software engineering</strong> (~80%) and <strong>foreign
                             direct
                             investment (FDI)
                             attraction</strong> on the high-tech sector (~20%).</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Student Partner</strong> — Microsoft</h2>
-                    <p>April 2018 — April 2019</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/microsoft_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Student Partner</strong> — Microsoft</h2>
+                            <p class="opacity-80"><i>April 2018 — April 2019</i></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Academic Tutor</strong> — UCL
-                        Department of Computer Science</h2>
-                    <p>September 2017 — April 2018</p>
+                    <div class="flex flex-row gap-4">
+                        <img src="/assets/ucl_logo.png" alt="Aalto University" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Academic Tutor</strong> — UCL
+                                Department of Computer Science</h2>
+                            <p class="opacity-80"><i>September 2017 — April 2018</i></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,19 +176,19 @@
             <div class="flex flex-col gap-6">
                 <h1>Skills</h1>
                 <div class="flex flex-col gap-1">
-                    <h2>Most used in the last year</h2>
+                    <h2><strong>Most used in the last year</strong></h2>
                     <p>Python, C++ & CUDA, web (Go, Vue and CSS).</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2>Libraries</h2>
+                    <h2><strong>Libraries</strong></h2>
                     <p>Numpy, Matplotlib, PyTorch, Hugging Face (e.g., transformers), Gym, Mujoco, W&B...</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2>Other technologies</h2>
+                    <h2><strong>Other technologies</strong></h2>
                     <p>Docker, Git, Perforce, Assembly, Linux/Unix.</p>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <h2>Languages</h2>
+                    <h2><strong>Languages</strong></h2>
                     <p>Native Spanish and bilingual proficiency in English.</p>
                 </div>
             </div>
