@@ -1,5 +1,50 @@
 [
     {
+        "title": "Recursive Decomposition with Dependencies for Generic Divide and Conquer Reasoning",
+        "authors": ["Sergio Hernández-Gutiérrez", "Minttu Alakuijala", "Alexander V. Nikitin", "Pekka Marttinen"],
+        "venue": "NeurIPS Sys2 Reasoning",
+        "year": "2024",
+        "status": "published",
+        "type": "workshop",
+        "abstract": "Reasoning tasks are crucial in many domains, especially in science and engineering. Although large language models (LLMs) have made progress in reasoning tasks using techniques such as chain-of-thought and least-to-most prompting, these approaches still do not effectively scale to complex problems in either their performance or execution time. Moreover, they often require additional supervision for each new task, such as in-context examples. In this work, we introduce Recursive Decomposition with Dependencies (RDD), a scalable divide-and-conquer method for solving reasoning problems that requires less supervision than prior approaches. Our method can be directly applied to a new problem class even in the absence of any task-specific guidance. Furthermore, RDD supports sub-task dependencies, allowing for ordered execution of sub-tasks, as well as an error recovery mechanism that can correct mistakes made in previous steps. We evaluate our approach on two benchmarks with six difficulty levels each and in two in-context settings: one with task-specific examples and one without. Our results demonstrate that RDD outperforms other methods in a compute-matched setting as task complexity increases, while also being more computationally efficient.",
+        "recognitions": "",
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://openreview.net/forum?id=MZG5VzXBm9",
+                "icon": "tabler:file-type-pdf"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/lmethods",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+
+    {
+        "title": "Following Ancestral Footsteps: Co-Designing Morphology and Behaviour with Self-Imitation Learning",
+        "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
+        "venue": "EARL RSS (oral presentation) and EWRL",
+        "year": "2024",
+        "status": "published",
+        "type": "workshop",
+        "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
+        "recognitions": "Best Workshop Paper Award (EARL RSS)",
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://openreview.net/forum?id=lHlhqoWfjw",
+                "icon": "tabler:file-type-pdf"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/cosil",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
         "title": "Solving Reasoning Problems with Large Language Models via Recursive Decomposition",
         "authors": ["Sergio Hernández-Gutiérrez", "Pekka Marttinen", "Alexander Nikitin", "Minttu Alakuijala"],
         "venue": "Aalto University",
@@ -13,29 +58,6 @@
                 "title": "PDF",
                 "url": "https://drive.google.com/file/d/1-7M4VIyXvbIWQL9-pllrtX1UrDSnccgM/view?usp=share_link",
                 "icon": "tabler:file-type-pdf"
-            }
-        ]
-    },
-
-    {
-        "title": "Following Ancestral Footsteps: Co-Designing Morphology and Behaviour with Self-Imitation Learning",
-        "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
-        "venue": "EARL (RSS), oral presentation",
-        "year": "2024",
-        "status": "published",
-        "type": "workshop",
-        "abstract": "In this paper we consider the problem of co-adapting the body and behaviour of agents, a long-standing research problem in the community of evolutionary robotics. Previous work has largely focused on the development of methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is not applicable to the real world. More recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
-        "recognitions": "Best Workshop Paper Award",
-        "links": [
-            {
-                "title": "PDF",
-                "url": "https://drive.google.com/file/d/19HbPkTiJ-86FIfG033Jioi6h0nssIOQ9/view?usp=sharing",
-                "icon": "tabler:file-type-pdf"
-            },
-            {
-                "title": "GitHub",
-                "url": "https://github.com/serhez/cosil",
-                "icon": "mdi:github"
             }
         ]
     },

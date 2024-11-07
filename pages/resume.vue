@@ -11,11 +11,11 @@
                                 Aalto
                                 University,
                                 Finland</h2>
-                            <p class="opacity-80"><i>September 2022 — August 2024</i></p>
+                            <p class="opacity-80"><i>September 2022 — September 2024</i></p>
                         </div>
                     </div>
-                    <p>Currently a <strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all courses), pending my
-                        thesis. Received the <strong>Dean's Scholarship</strong> for outstanding academic performance.</p>
+                    <p><strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all courses). Received the <strong>Dean's
+                            Scholarship</strong> for outstanding academic performance.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
@@ -51,7 +51,10 @@
                         proportionally to the complexity of the task.
                         I gave a <strong>40-min.
                             talk</strong> at the department about the project. This work culminated in a paper, which we
-                        have <strong>submitted for CoRL 2024</strong>.
+                        have
+                        presented at <strong>RSS EARL 2024</strong> and <strong>EWRL 2024</strong>, winning the
+                        <strong>“Best Workshop Paper
+                            Award”</strong> in the earlier.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">

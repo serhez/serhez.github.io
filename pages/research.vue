@@ -20,10 +20,10 @@ function togglePopup(publication: any) {
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
-                    <p>I recently submitted my <strong>Master's thesis</strong>, exploring how language
+                    <p>My <strong>Master's thesis</strong> explores how language
                         models can be used
                         to
-                        solve <strong>multi-step reasoning problems via task decomposition</strong> as te complexity of
+                        solve <strong>multi-step reasoning problems via task decomposition</strong> as the complexity of
                         the tasks increases.
                         My <strong>interests</strong> at the moment include:</p>
                     <ul class="list-disc pl-6">
