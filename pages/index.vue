@@ -3,11 +3,11 @@ import socials from '@/content/socials.json';
 import emojis from '@/content/emojis.json';
 
 useHead({
-    title: 'Sergio Hernández Gutiérrez',
+    title: 'Sergio Hernández-Gutiérrez',
     titleTemplate: '%s',
     meta: [
         {
-            name: 'description', content: 'Sergio Hernández Gutiérrez, Machine Learning scientist.'
+            name: 'description', content: 'Sergio Hernández-Gutiérrez, Machine Learning Researcher.'
         }
     ],
 });
@@ -51,14 +51,14 @@ definePageMeta({
                         more.
                     </p>
                     <p>
-                        Originally from the Canary Islands, I am currently finishing my <strong>MSc in Machine
-                            Learning</strong> at <strong>Aalto
-                            University</strong>. I hold a <strong>BSc in Computer Science</strong> from
+                        Originally from the Canary Islands, I hold a <strong>MSc in Machine
+                            Learning</strong> from <strong>Aalto
+                            University</strong> and a <strong>BSc in Computer Science</strong> from
                         University College London (<strong>UCL</strong>). I have worked
                         as an
-                        <strong>engineer/scientist for +3 years</strong> in Spain, Scotland and Finland, in
-                        companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong> and
-                        <strong>PwC</strong>.
+                        <strong>engineer & researcher for +3 years</strong> in Spain, Scotland and Finland, in
+                        companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong>,
+                        <strong>PwC</strong> and <strong>Aalto University</strong>.
                         Check out my <fancy-link to="/resume">resume</fancy-link> for more.
                     </p>
                 </div>
