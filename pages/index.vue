@@ -41,8 +41,8 @@ definePageMeta({
                             models</strong> to solve
                         complex <strong>reasoning and decision-making tasks</strong>, how <strong>knowledge and data
                             representation</strong> affects such
-                        capabilities, as well as learning the reinforcement learning process
-                        (<strong>meta-learning</strong>) outside of
+                        capabilities, as well as <strong>meta-learning</strong> the reinforcement learning process
+                        outside of
                         classical algorithmic approaches. Check out
                         my
                         <fancy-link to="/research">research output
