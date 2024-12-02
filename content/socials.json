@@ -1,4 +1,10 @@
 {
+    "scholar": {
+        "title": "Google Scholar",
+        "icon": "academicons:google-scholar",
+        "url": "https://scholar.google.com/citations?user=R9kJEfIAAAAJ",
+        "username": "Sergio Hernández-Gutiérrez"
+    },
     "github": {
         "title": "Github",
         "icon": "mdi:github",
