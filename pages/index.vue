@@ -37,7 +37,7 @@ definePageMeta({
                 </div>
                 <div class="max-w-2xl space-y-4">
                     <p>I am a Machine Learning Scientist currently looking for
-                        PhD opportunities. My current research interests revolve around employing <strong>deep
+                        research opportunities. My current interests revolve around employing <strong>deep
                             models</strong> to solve
                         complex <strong>reasoning and decision-making tasks</strong>, how <strong>knowledge and data
                             representation</strong> affects such
