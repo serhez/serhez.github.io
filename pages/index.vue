@@ -37,18 +37,13 @@ definePageMeta({
                 </div>
                 <div class="max-w-2xl space-y-4">
                     <p>I am a Machine Learning Scientist currently looking for
-                        research opportunities. My current interests revolve around employing <strong>deep
-                            models</strong> to solve
-                        complex <strong>reasoning and decision-making tasks</strong>, how <strong>knowledge and data
-                            representation</strong> affects such
-                        capabilities, as well as <strong>meta-learning</strong> the reinforcement learning process
-                        outside of
-                        classical algorithmic approaches. Check out
-                        my
-                        <fancy-link to="/research">research output
-                        </fancy-link>
-                        for
-                        more.
+                        research opportunities. My current interests revolve around <strong>machine reasoning</strong>,
+                        how <strong>knowledge and data representations</strong> affect such
+                        capabilities, <strong>exploration strategies</strong> within reinforcement learning
+                        settings, and <strong>active
+                            learning</strong> frameworks. My long-term objective is to accelerate scientific discovery
+                        with artificial agents. Check out my
+                        <fancy-link to="/research">research output & interests</fancy-link> page for more.
                     </p>
                     <p>
                         Originally from the Canary Islands, I hold a <strong>MSc in Machine
