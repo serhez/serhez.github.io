@@ -20,30 +20,34 @@ function togglePopup(publication: any) {
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
-                    <p>My <strong>Master's thesis</strong> explores how language
-                        models can be used
-                        to
-                        solve <strong>multi-step reasoning problems via task decomposition</strong> as the complexity of
-                        the tasks increases.
-                        My <strong>interests</strong> at the moment include:</p>
+                    <p>My overall goal is to <strong>design and build agents capable of knowledge discovery</strong>,
+                        particularly in the sciences.
+                        To this
+                        end, my current <strong>interests</strong> revolve around:</p>
                     <ul class="list-disc pl-6">
-                        <li><strong>Knowledge representation</strong> in deep models (e.g., latent embedding spaces),
-                            particularly
-                            using formal
-                            languages.
+                        <li>How to achieve different types of <strong>machine reasoning</strong>: induction, deduction,
+                            causation, or
+                            decomposition. In particular, deep architectures, methods and systems for solving complex
+                            reasoning problems
+                            (e.g., mathematics, programming tasks, planning, etc.). My <strong>Master's thesis</strong>
+                            explored how language
+                            models can be used
+                            to
+                            solve <strong>multi-step reasoning problems via task decomposition</strong> as the
+                            complexity of
+                            the tasks increases.
                         </li>
-                        <li>Deep architectures and methods for solving complex <strong>reasoning problems</strong>
-                            (e.g., mathematics, programming tasks, planning, etc.).
+                        <li>Generalizing reinforcement learning methods to better adapt to
+                            unseen tasks by meta-learning <strong>exploration and data-gathering strategies</strong>:
+                            <i>"learning what data to learn from"</i>. Employing <strong>active learning</strong>
+                            frameworks to enable self-supervised agents to model the unknown dynamics of complex
+                            systems.
                         </li>
-                        <li><strong>Reinforcement and imitation learning</strong>, particularly meta-learning the RL/IL
-                            process outside of classical algorithmic approaches.</li>
+                        <li><strong>Knowledge representations</strong> in deep models (e.g., latent embedding spaces)
+                            that enable reasoning, particularly using formal languages, hierarchical and object-centric
+                            compositional representation learning, etc.
+                        </li>
                     </ul>
-                    <p>My <strong>long term ambition</strong> is to design models capable of not just imitating training
-                        data, but of discovering and displaying new knowledge. Today, even the largest
-                        models
-                        struggle
-                        to extrapolate complex reasoning patterns in data and exhibit valuable novel
-                        behavior.</p>
                 </div>
             </div>
             <div class="flex flex-col gap-0">
