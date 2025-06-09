@@ -20,32 +20,21 @@ function togglePopup(publication: any) {
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
-                    <p>My overall goal is to <strong>design and build agents capable of knowledge discovery</strong>,
-                        particularly in the sciences.
+                    <p>My overall goal is to develop systems capable of <strong>scientific knowledge discovery</strong>.
                         To this
                         end, my current <strong>interests</strong> revolve around:</p>
                     <ul class="list-disc pl-6">
-                        <li>How to achieve different types of <strong>machine reasoning</strong>: induction, deduction,
-                            causation, or
-                            decomposition. In particular, deep architectures, methods and systems for solving complex
-                            reasoning problems
-                            (e.g., mathematics, programming tasks, planning, etc.). My <strong>Master's thesis</strong>
-                            explored how language
-                            models can be used
-                            to
-                            solve <strong>multi-step reasoning problems via task decomposition</strong> as the
-                            complexity of
-                            the tasks increases.
+                        <li><strong>Machine reasoning</strong>: induction, deduction,
+                            causation,
+                            decomposition, and generalization.
                         </li>
-                        <li>Generalizing reinforcement learning methods to better adapt to
-                            unseen tasks by meta-learning <strong>exploration and data-gathering strategies</strong>:
-                            <i>"learning what data to learn from"</i>. Employing <strong>active learning</strong>
-                            frameworks to enable self-supervised agents to model the unknown dynamics of complex
-                            systems.
+                        <li><strong>Reinforcement learning</strong>: active RL settings, goal-directed exploration
+                            strategies, implicit RL (i.e., meta-learning approaches to navigating an RL environment),
+                            etc.
                         </li>
-                        <li><strong>Knowledge representations</strong> in deep models (e.g., latent embedding spaces)
-                            that enable reasoning, particularly using formal languages, hierarchical and object-centric
-                            compositional representation learning, etc.
+                        <li><strong>Knowledge representations</strong>
+                            that enable reasoning, particularly using formal languages, hierarchical, and compositional
+                            representations.
                         </li>
                     </ul>
                 </div>

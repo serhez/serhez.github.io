@@ -32,9 +32,23 @@
                 <h1>Professional Experience</h1>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
+                        <img src="/assets/tuebingen_logo.png" alt="Universität Tübingen" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>Doctoral Candidate</strong> — Computational Neuroscience & Machine Learning
+                                Group (Bethge Lab), Universität Tübingen</h2>
+                            <p class="opacity-80"><i>June 2025 — Present</i></p>
+                        </div>
+                    </div>
+                    <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Prof.
+                        Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH Zürich). I am also part of
+                        the ELLIS PhD program.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-row gap-4">
                         <img src="/assets/aalto_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
-                            <h2><strong>Research Assistant</strong> — Intelligent Robotics Group,   Aalto University
+                            <h2><strong>Research Assistant</strong> — Intelligent Robotics Group, Aalto University
                             </h2>
                             <p class="opacity-80"><i>May 2023 — August 2023</i></p>
                         </div>

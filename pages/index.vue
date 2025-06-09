@@ -27,22 +27,26 @@ definePageMeta({
                     </h1>
                     <div class="flex flex-col gap-1">
                         <h2>
-                            Machine Learning Scientist
+                            Machine Learning Researcher
                         </h2>
                         <div class="flex gap-2 items-center">
                             <i class="pi pi-map-marker" style="font-size: 24px" />
-                            <h2>Helsinki, Finland</h2>
+                            <h2>Tübingen, Germany</h2>
                         </div>
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I am a Machine Learning Scientist currently looking for
-                        research opportunities. My current interests revolve around <strong>machine reasoning</strong>,
-                        how <strong>knowledge and data representations</strong> affect such
-                        capabilities, <strong>exploration strategies</strong> within reinforcement learning
-                        settings, and <strong>active
-                            learning</strong> frameworks. My long-term objective is to accelerate scientific discovery
-                        with artificial agents. Check out my
+                    <p>I am a <strong>machine learning researcher</strong>, currently pursuing a PhD under the
+                        supervision of Prof. Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH
+                        Zürich). I am also a member of the <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> PhD
+                        program. My work is
+                        directed towards
+                        the development of
+                        <strong>knowledge discovery</strong>
+                        systems, particularly in the sciences. My current interests revolve around <strong>machine
+                            reasoning</strong>,
+                        <strong>formal knowledge and data representations</strong>, and different aspects of
+                        <strong>reinforcement learning</strong>. Check out my
                         <fancy-link to="/research">research output & interests</fancy-link> page for more.
                     </p>
                     <p>
@@ -51,10 +55,9 @@ definePageMeta({
                             University</strong> and a <strong>BSc in Computer Science</strong> from
                         University College London (<strong>UCL</strong>). I have worked
                         as an
-                        <strong>engineer & researcher for +3 years</strong> in Spain, Scotland and Finland, in
+                        <strong>engineer & researcher for +3 years</strong> in Spain, Scotland, Finland, and Germany, in
                         companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong>,
-                        <strong>PwC</strong> and <strong>Aalto University</strong>.
-                        Check out my <fancy-link to="/resume">resume</fancy-link> for more.
+                        and <strong>PwC</strong>. Check out my <fancy-link to="/resume">resume</fancy-link> for more.
                     </p>
                 </div>
                 <div class="flex gap-6">
