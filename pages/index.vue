@@ -7,8 +7,9 @@ useHead({
     titleTemplate: '%s',
     meta: [
         {
-            name: 'description', content: 'Sergio Hernández-Gutiérrez, Machine Learning Researcher.'
-        }
+            name: 'description',
+            content: 'Sergio Hernández-Gutiérrez, Machine Learning Researcher.',
+        },
     ],
 });
 
@@ -30,7 +31,7 @@ definePageMeta({
                             Machine Learning Researcher
                         </h2>
                         <div class="flex gap-2 items-center">
-                            <i class="pi pi-map-marker" style="font-size: 24px" />
+                            <i class="pi pi-map-marker" style="font-size: 24px;" />
                             <h2>Tübingen, Germany</h2>
                         </div>
                     </div>
@@ -42,11 +43,8 @@ definePageMeta({
                         program. My work is
                         directed towards
                         the development of
-                        <strong>knowledge discovery</strong>
-                        systems, particularly in the sciences. My current interests revolve around <strong>machine
-                            reasoning</strong>,
-                        <strong>formal knowledge and data representations</strong>, and different aspects of
-                        <strong>reinforcement learning</strong>. Check out my
+                        <strong>open-ended knowledge discovery</strong>
+                        systems, particularly in the sciences. Check out my
                         <fancy-link to="/research">research output & interests</fancy-link> page for more.
                     </p>
                     <p>

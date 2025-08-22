@@ -1,5 +1,27 @@
 [
     {
+        "title": "Co-Adaptation of Embodiment and Control with Self-Imitation Learning",
+        "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
+        "venue": "IROS",
+        "year": "2025",
+        "status": "published",
+        "type": "conference",
+        "abstract": "The task of co-optimizing the body and behaviour of agents has been a long-standing problem in the fields of evolutionary robotics and embodied AI. Previous work has largely focused on the development of learning methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is applicable to simulated agents but cannot be transferred to the real world due to the assoicated costs with the production of embodiments and robots. Furthermore, recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning to co-design embodiment and behavioural policies withing a handful of design iterations. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1uQEYDniZz1ubMvXdcEXgogzOZylDJo06/view?usp=sharing",
+                "icon": "tabler:file-type-pdf"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/cosil",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+
+    {
         "title": "Recursive Decomposition with Dependencies for Generic Divide and Conquer Reasoning",
         "authors": ["Sergio Hernández-Gutiérrez", "Minttu Alakuijala", "Alexander V. Nikitin", "Pekka Marttinen"],
         "venue": "NeurIPS Sys2 Reasoning",
@@ -10,9 +32,9 @@
         "recognitions": "",
         "links": [
             {
-                "title": "PDF",
-                "url": "https://openreview.net/forum?id=MZG5VzXBm9",
-                "icon": "tabler:file-type-pdf"
+                "title": "ArXiv",
+                "url": "https://arxiv.org/abs/2505.02576",
+                "icon": "academicons:arxiv"
             },
             {
                 "title": "GitHub",

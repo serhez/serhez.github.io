@@ -20,21 +20,25 @@ function togglePopup(publication: any) {
                     Current interests
                 </h1>
                 <div class="flex flex-col gap-2">
-                    <p>My overall goal is to develop systems capable of <strong>scientific knowledge discovery</strong>.
-                        To this
-                        end, my current <strong>interests</strong> revolve around:</p>
+                    <p>My long-term goal is to develop systems capable of <strong>open-ended
+                        scientific knowledge discovery</strong>.
+                        My current <strong>interests</strong> revolve around (in decreasing order of
+                        active involvement):</p>
                     <ul class="list-disc pl-6">
-                        <li><strong>Machine reasoning</strong>: induction, deduction,
-                            causation,
-                            decomposition, and generalization.
+                        <li><strong>Autonomous information seeking</strong>: uncertainty
+                            self-awareness, action-taking attending to information gain maximization,
+                            goal-directed exploration.
                         </li>
-                        <li><strong>Reinforcement learning</strong>: active RL settings, goal-directed exploration
-                            strategies, implicit RL (i.e., meta-learning approaches to navigating an RL environment),
-                            etc.
+                        <li><strong>Reinforcement learning</strong> for large models: efficient
+                            exploratinon capabilities in large search-spaces, open-ended & intrinsic
+                            objectives.
                         </li>
-                        <li><strong>Knowledge representations</strong>
-                            that enable reasoning, particularly using formal languages, hierarchical, and compositional
-                            representations.
+                        <li>Predictive <strong>world models</strong>: providing scalable streams of
+                            experiential data, grounding long reasoning trajectories and alleviating
+                            hallucinations.
+                        </li>
+                        <li><strong>Knowledge representations</strong>: formal languages (e.g., math or
+                            code), hierarchical, and compositional representations.
                         </li>
                     </ul>
                 </div>

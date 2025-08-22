@@ -17,6 +17,11 @@
         "url": "https://www.linkedin.com/in/serhez/",
         "username": "serhez"
     },
+    "twitter": {
+        "title": "twitter",
+        "icon": "mdi:twitter",
+        "url": "https://x.com/h_g_sergio"
+    },
     "email": {
         "title": "email",
         "icon": "mdi:email",
