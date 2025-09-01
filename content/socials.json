@@ -21,10 +21,5 @@
         "title": "twitter",
         "icon": "mdi:twitter",
         "url": "https://x.com/h_g_sergio"
-    },
-    "email": {
-        "title": "email",
-        "icon": "mdi:email",
-        "url": "mailto:contact.sergiohernandez@gmail.com"
     }
 }

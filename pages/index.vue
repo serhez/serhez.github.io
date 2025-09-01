@@ -77,7 +77,7 @@ h1 {
 }
 
 h2 {
-    @apply text-zinc-700 max-w-2xl text-2xl tracking-tight sm:text-3xl sm:leading-tight;
+    @apply text-zinc-700 max-w-2xl text-xl tracking-tight sm:text-2xl sm:leading-tight;
 }
 
 p {
