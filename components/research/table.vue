@@ -42,6 +42,9 @@ const getStatus = (status) => {
 };
 const getType = (type) => {
     switch (type) {
+        case 'conference':
+            return 'success';
+
         case 'journal':
             return 'success';
 
@@ -56,6 +59,9 @@ const getType = (type) => {
 
         case 'article':
             return 'danger';
+
+        case 'TBA':
+            return 'warning';
     }
 };
 

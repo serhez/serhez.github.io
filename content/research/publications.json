@@ -1,12 +1,45 @@
 [
     {
+        "title": "Intrinsic Credit Assignment for Long Horizon Interaction",
+        "authors": [
+            "Ilze Amanda Auzina*",
+            "Joschka Strüber*",
+            "Sergio Hernández-Gutiérrez*",
+            "Shashwat Goel",
+            "Ameya Prabhu",
+            "Matthias Bethge"
+        ],
+        "venue": "",
+        "year": "2026",
+        "status": "unpublished",
+        "type": "TBA",
+        "abstract": "How can we train agents to navigate uncertainty over long horizons? In this work, we propose ΔBelief-RL, which leverages a language model's own intrinsic beliefs to reward intermediate progress. Our method utilizes the change in the probability an agent assigns to the target solution for credit assignment. By training on synthetic interaction data, ΔBelief-RL teaches information-seeking capabilities that consistently outperform purely outcome-based rewards for RL, with improvements generalizing to out-of-distribution applications ranging from customer service to personalization. Notably, the performance continues to improve as we scale test-time interactions beyond the training horizon, with interaction-efficiency increasing even on Pass@k metrics. Overall, our work introduces a scalable training strategy for navigating uncertainty over a long-horizon, by enabling credit assignment to intermediate actions via intrinsic ΔBelief rewards.",
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://bethgelab.github.io/delta-belief-rl/",
+                "icon": "mdi:web"
+            },
+            {
+                "title": "AlphaXiv",
+                "url": "https://www.alphaxiv.org/abs/intrinsic-credit-assignment",
+                "icon": "academicons:arxiv"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/bethgelab/delta-belief-rl/",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
         "title": "Co-Adaptation of Embodiment and Control with Self-Imitation Learning",
         "authors": ["Sergio Hernández-Gutiérrez", "Ville Kyrki", "Kevin S. Luck"],
         "venue": "IROS",
         "year": "2025",
         "status": "published",
         "type": "conference",
-        "abstract": "The task of co-optimizing the body and behaviour of agents has been a long-standing problem in the fields of evolutionary robotics and embodied AI. Previous work has largely focused on the development of learning methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is applicable to simulated agents but cannot be transferred to the real world due to the assoicated costs with the production of embodiments and robots. Furthermore, recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning to co-design embodiment and behavioural policies withing a handful of design iterations. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
+        "abstract": "The task of co-optimizing the body and behaviour of agents has been a long-standing problem in the fields of evolutionary robotics and embodied AI. Previous work has largely focused on the development of learning methods exploiting massive parallelization of agent evaluations with large population sizes, a paradigm which is applicable to simulated agents but cannot be transferred to the real world due to the associated costs with the production of embodiments and robots. Furthermore, recent data-efficient approaches utilizing reinforcement learning can suffer from distributional shifts in transition dynamics as well as in state and action spaces when experiencing new body morphologies. In this work, we propose a new co-adaptation method combining reinforcement learning and State-Aligned Self-Imitation Learning to co-design embodiment and behavioural policies within a handful of design iterations. We show that the integration of a self-imitation signal improves the data-efficiency of the co-adaptation process as well as the behavioural recovery when adapting morphological parameters.",
         "links": [
             {
                 "title": "PDF",
