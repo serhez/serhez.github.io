@@ -37,15 +37,12 @@ definePageMeta({
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I am a <strong>machine learning researcher</strong>, currently pursuing a PhD under the
-                        supervision of Prof. Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH
-                        Zürich). I am also a member of the <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> PhD
-                        program. My work is
-                        directed towards
-                        the development of
-                        <strong>open-ended knowledge discovery</strong>
-                        systems, particularly in the sciences. Check out my
-                        <fancy-link to="/research">research output & interests</fancy-link> page for more.
+                    <p>I currently doing a <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> <strong>PhD</strong>
+                        under the
+                        supervision of Matthias Bethge (BethgeLab) and Tim Rocktäschel (UCL DARK, Google DeepMind).
+                        </p>
+                        <p>I work on <strong>RL post-training</strong> and <strong>world modeling</strong>. Check out my
+                        <fancy-link to="/research">research output & interests</fancy-link> page for a more detailed account.
                     </p>
                     <p>
                         Originally from the Canary Islands, I hold a <strong>MSc in Machine
@@ -53,9 +50,9 @@ definePageMeta({
                             University</strong> and a <strong>BSc in Computer Science</strong> from
                         University College London (<strong>UCL</strong>). I have worked
                         as an
-                        <strong>engineer & researcher for +3 years</strong> in Spain, Scotland, Finland, and Germany, in
-                        companies such as <strong>Rockstar Games</strong>, <strong>Cabify</strong>,
-                        and <strong>PwC</strong>. Check out my <fancy-link to="/resume">resume</fancy-link> for more.
+                        <strong>engineer & researcher for +4 years</strong> in Spain, Scotland, Finland, and Germany, in
+                        companies such as Rockstar Games, Cabify,
+                        and PwC. Check out my <fancy-link to="/resume">resume</fancy-link> for more.
                     </p>
                 </div>
                 <div class="flex gap-6">
@@ -81,6 +78,6 @@ h2 {
 }
 
 p {
-    @apply text-base sm:text-lg md:text-lg text-zinc-700;
+    @apply text-base sm:text-lg md:text-lg text-zinc-700 text-left;
 }
 </style>
