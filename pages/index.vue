@@ -37,7 +37,7 @@ definePageMeta({
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I currently doing a <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> <strong>PhD</strong>
+                    <p>I currently doing an <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> <strong>PhD</strong>
                         under the
                         supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind).
                         </p>
