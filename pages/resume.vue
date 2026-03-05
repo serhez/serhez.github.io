@@ -41,7 +41,7 @@
                     </div>
                     <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Prof.
                         Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH Zürich). I am part of
-                        the Max Plank's IMPRS-IS and ELLIS PhD programs.
+                        the Max Planck's IMPRS-IS and ELLIS PhD programs.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">
