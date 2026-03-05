@@ -37,9 +37,10 @@ definePageMeta({
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I currently doing an <fancy-link to="https://ellis.eu/">ELLIS</fancy-link> <strong>PhD</strong>
-                        under the
-                        supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind).
+                    <p>I am currently doing a <strong>PhD</strong> at the <fancy-link to="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</fancy-link>
+                        and <fancy-link to="https://ellis.eu/">ELLIS</fancy-link>, under the
+                        supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel
+                        (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind).
                         </p>
                         <p>I work on <strong>RL post-training</strong> and <strong>world modeling</strong>. Check out my
                         <fancy-link to="/research">research output & interests</fancy-link> page for a more detailed account.
@@ -58,7 +59,7 @@ definePageMeta({
                 <div class="flex gap-6">
                     <a v-for="social in socials" :key="social.title" :href="social.url" :title="social.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
-                        <icon :name="social.icon" class="h-6 w-6" />
+                        <icon :name="social.icon;" class="h-6 w-6" />
                     </a>
                 </div>
             </div>

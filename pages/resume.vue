@@ -40,8 +40,8 @@
                         </div>
                     </div>
                     <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Prof.
-                        Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH Zürich). I am also part of
-                        the ELLIS PhD program.
+                        Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH Zürich). I am part of
+                        the Max Plank's IMPRS-IS and ELLIS PhD programs.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">
@@ -174,7 +174,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><fancy-link
                             to="https://www.coursera.org/account/accomplishments/verify/6WN9QM9WWXWG?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link"
-                            :underline="false">
+                            :underline="false;">
                             <strong>Mathematics for Machine Learning:
                                 Linear Algebra</strong> — Imperial College London (Coursera)</fancy-link>
                     </h2>
@@ -183,7 +183,7 @@
                 <div class="flex flex-col gap-1">
                     <h2><fancy-link
                             to="https://www.coursera.org/account/accomplishments/verify/QTF4Y8FXGE9R?utm_campaign=sharing_cta&utm_content=cert_image&utm_medium=certificate&utm_product=course&utm_source=link"
-                            :underline="false"><strong>Machine
+                            :underline="false;"><strong>Machine
                                 Learning</strong> — Stanford
                             University (Coursera)</fancy-link>
                     </h2>
