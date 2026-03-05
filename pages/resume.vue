@@ -39,8 +39,7 @@
                             <p class="opacity-80"><i>June 2025 — Present</i></p>
                         </div>
                     </div>
-                    <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Prof.
-                        Matthias Bethge (Universität Tübingen) and Prof. Mrinmaya Sachan (ETH Zürich). I am part of
+                    <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind). I am part of
                         the Max Planck's IMPRS-IS and ELLIS PhD programs.
                     </p>
                 </div>
