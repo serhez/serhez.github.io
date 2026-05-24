@@ -1,6 +1,44 @@
 [
     {
-        "title": "MLoggers",
+        "title": "editr",
+        "description": "Tool to open remote projects in local editors through a Mutagen-backed mirror. Your editor, language servers, formatters, linters, file pickers, grep tools, Git UI, and terminal commands see a normal local directory. Mutagen keeps that directory synchronized with the remote project.",
+        "links": [
+            {
+                "title": "Crates",
+                "url": "https://crates.io/crates/editr",
+                "icon": "mdi:package-variant-closed"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/editr",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "bento.nvim",
+        "description": "A minimalist and efficient yet powerful buffer manager for Neovim. Designed to be extensible and customizable, both in terms of UI & functionality.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/bento.nvim",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "teide.nvim",
+        "description": "A dark and light Neovim theme written in Lua. Includes extra themes for Kitty, Alacritty, iTerm and Fish.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/teide.nvim",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "mloggers",
         "description": "A package of loggers well-suited for machine learning experiments. It integrates with Weights and Biases and provides structured file and console logging.",
         "links": [
             {
@@ -16,7 +54,7 @@
         ]
     },
     {
-        "title": "LData",
+        "title": "ldata",
         "description": "A library for managing datasets and benchmarks in NLP experiments. It provides a simple API for using datasets to train and evaluate models across different pre-defined or user-defined language tasks.",
         "links": [
             {
@@ -27,7 +65,7 @@
         ]
     },
     {
-        "title": "LModels",
+        "title": "lmodels",
         "description": "A library defining a common API to work with state-of-the-art LLMs. It provides wrappers for the Hugging Face and OpenAI APIs, amongst others.",
         "links": [
             {
@@ -38,7 +76,7 @@
         ]
     },
     {
-        "title": "LMethods",
+        "title": "lmethods",
         "description": "A library containing methods to enhance the capabilities of LLMs, such as Chain-of-Thought, Tree of Thoughts, Decomposed Prompting, etc. A common interface can be used to implement new methods.",
         "links": [
             {
