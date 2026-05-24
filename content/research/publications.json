@@ -1,5 +1,50 @@
 [
     {
+        "title": "SignalBench: Comparing Dense Feedback Methods for Long-Horizon Agents",
+        "authors": [
+            "Sergio Hernández-Gutiérrez",
+            "Matteo Merler",
+            "Ilze Amanda Auzina",
+            "Joschka Strüber",
+            "Ameya Prabhu",
+            "Matthias Bethge"
+        ],
+        "venue": "",
+        "year": "2026",
+        "status": "submitted",
+        "type": "TBA",
+        "abstract": "Dense supervision is an essential ingredient when scaling long-horizon agent training, yet we don't really know how well current methods recover the value structure they purport to estimate. A growing line of work — intrinsic signals, self-distillation, embedding similarities — can be unified as dense feedback methods that score intermediate states and actions. However, prior works evaluate dense supervision by measuring downstream model performance, an approach that is computationally expensive and entangles the quality of the signal with engineering choices for training. To address this gap, we propose SignalBench: a training-free testbed designed to isolate and evaluate dense supervision methods for agentic systems. SignalBench allows us to comprehensively analyse the correlation of the evaluated signals with reference-policy value labels across 21 dense feedback methods, with over 1.2K evaluations across four diverse environments and six open-weight backbone models. We find that simple prompting baselines consistently outperform state-of-the-art dense feedback methods, and methodological families cluster together in performance. These core findings are surprisingly robust: They hold across model sizes, environments, observation modalities, and estimated signal types. Overall, SignalBench offers a valuable and inexpensive testbed for dense feedback method evaluation across model and task families.",
+        "links": [
+            {
+                "title": "PDF",
+                "url": "https://drive.google.com/file/d/1SVUU9xppT3_K0GfdZLaRpCSQVDgYwrlw/view?usp=sharing",
+                "icon": "tabler:file-type-pdf"
+            }
+        ]
+    },
+    {
+        "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+        "authors": [
+            "Babak Rahmani",
+            "Sebastian Dziadzio",
+            "Joschka Strüber",
+            "Sergio Hernández-Gutiérrez",
+            "Matthias Bethge"
+        ],
+        "venue": "",
+        "year": "2026",
+        "status": "submitted",
+        "type": "TBA",
+        "abstract": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions—an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code, and how much does this reconstruction improve with the ability to design controlled experiments? We introduce RevengeBench, a benchmark of 75 LLM generated, Elo-calibrated policies across five game environments, drawn from CodeClash tournament trajectories. The learner observes the hidden target policy play against sampled opponents and designs behavioral probes in the form of custom opponent policies that elicit informative behavior. It then submits an executable hypothesis, which is evaluated using continuous action-distance metrics. We further validate that recovered code carries informative signal in downstream player-versus-player tournaments. Across twelve frontier LLMs, recovery quality varies substantially (34–72% of initial distance closed), with reconstructed policies yielding measurable competitive advantage, particularly for weaker models that otherwise struggle to design effective counter-strategies. Our benchmark positions behavioral recovery of programmatic policies as a tractable inverse problem in code-space, opening a path to opponent modeling, policy interpretability, and the broader question of inferring latent mechanisms from observations.",
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://revengebench.com/",
+                "icon": "mdi:web"
+            }
+        ]
+    },
+    {
         "title": "Intrinsic Credit Assignment for Long Horizon Interaction",
         "authors": [
             "Ilze Amanda Auzina*",
@@ -9,10 +54,10 @@
             "Ameya Prabhu",
             "Matthias Bethge"
         ],
-        "venue": "",
+        "venue": "ICML",
         "year": "2026",
-        "status": "unpublished",
-        "type": "TBA",
+        "status": "published",
+        "type": "conference",
         "abstract": "How can we train agents to navigate uncertainty over long horizons? In this work, we propose ΔBelief-RL, which leverages a language model's own intrinsic beliefs to reward intermediate progress. Our method utilizes the change in the probability an agent assigns to the target solution for credit assignment. By training on synthetic interaction data, ΔBelief-RL teaches information-seeking capabilities that consistently outperform purely outcome-based rewards for RL, with improvements generalizing to out-of-distribution applications ranging from customer service to personalization. Notably, the performance continues to improve as we scale test-time interactions beyond the training horizon, with interaction-efficiency increasing even on Pass@k metrics. Overall, our work introduces a scalable training strategy for navigating uncertainty over a long-horizon, by enabling credit assignment to intermediate actions via intrinsic ΔBelief rewards.",
         "links": [
             {
