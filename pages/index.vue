@@ -37,21 +37,21 @@ definePageMeta({
                     </div>
                 </div>
                 <div class="max-w-2xl space-y-4">
-                    <p>I am currently doing a <strong>PhD</strong> at the <fancy-link to="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</fancy-link>
+                    <p>I am a <strong>PhD</strong> candidate at the <fancy-link to="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</fancy-link>
                         and <fancy-link to="https://ellis.eu/">ELLIS</fancy-link>, under the
-                        supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel
-                        (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind).
+                        supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Tim Rocktäschel
+                        (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, <fancy-link to="https://x.com/Recursive_SI">Recursive</fancy-link>).
                         </p>
-                        <p>I work on <strong>RL post-training</strong> and <strong>world modeling</strong>. Check out my
+                        <p>I specialize in designing dense signal methods to scale-up <strong>RL post-training</strong>. Check out my
                         <fancy-link to="/research">research output & interests</fancy-link> page for a more detailed account.
                     </p>
                     <p>
-                        Originally from the Canary Islands, I hold a <strong>MSc in Machine
+                        Originally from the Canary Islands, I hold a <strong>BSc in Computer Science</strong> from
+                        <strong>UCL</strong> and an <strong>MSc in Machine
                             Learning</strong> from <strong>Aalto
-                            University</strong> and a <strong>BSc in Computer Science</strong> from
-                        University College London (<strong>UCL</strong>). I have worked
+                            University</strong>. I have worked
                         as an
-                        <strong>engineer & researcher for +4 years</strong> in Spain, Scotland, Finland, and Germany, in
+                        <strong>engineer & researcher for +5 years</strong> in the UK, Spain, Scotland, Finland, and Germany, in
                         companies such as Rockstar Games, Cabify,
                         and PwC. Check out my <fancy-link to="/resume">resume</fancy-link> for more.
                     </p>
@@ -59,7 +59,7 @@ definePageMeta({
                 <div class="flex gap-6">
                     <a v-for="social in socials" :key="social.title" :href="social.url" :title="social.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
-                        <icon :name="social.icon" class="h-6 w-6" />
+                        <icon :name="social.icon;" class="h-6 w-6" />
                     </a>
                 </div>
             </div>
