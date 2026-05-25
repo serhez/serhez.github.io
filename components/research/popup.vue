@@ -23,10 +23,10 @@ defineEmits(['close']);
             <div class="flex flex-col gap-2 pb-3">
                 <h2 class="text-xl font-bold tracking-tight sm:text-2xl sm:leading-tight">{{ model?.title }}</h2>
                 <div class="flex flex-col gap-1 text-zinc-700 italic">
-                    <h3 class="text-lg tracking-tight sm:text-xl sm:leading-tight">
+                    <h3 class="text-md tracking-tight sm:text-lg sm:leading-tight">
                         {{ model?.authors.join(', ') }}
                     </h3>
-                    <h4 class="text-lg tracking-tight sm:text-xl sm:leading-tight">
+                    <h4 class="text-md tracking-tight sm:text-lg sm:leading-tight">
                         {{ model?.venue }} - {{ model?.year }}
                     </h4>
                 </div>
