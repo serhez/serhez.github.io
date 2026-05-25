@@ -31,7 +31,7 @@ definePageMeta({
                             Machine Learning Researcher
                         </h2>
                         <div class="flex gap-2 items-center">
-                            <i class="pi pi-map-marker" style="font-size: 24px;" />
+                            <i class="pi pi-map-marker" style="font-size: 24px" />
                             <h2>Tübingen, Germany</h2>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ definePageMeta({
                 <div class="flex gap-6">
                     <a v-for="social in socials" :key="social.title" :href="social.url" :title="social.title"
                         class="text-zinc-600 transition hover:text-zinc-300" rel="me nofollow noopener" target="_blank">
-                        <icon :name="social.icon;" class="h-6 w-6" />
+                        <icon :name="social.icon" class="h-6 w-6" />
                     </a>
                 </div>
             </div>
