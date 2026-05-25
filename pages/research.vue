@@ -21,29 +21,44 @@ function togglePopup(publication: any) {
                 </h1>
                 <div class="flex flex-col gap-2">
                     <p>My <strong>long-term goal</strong> is to develop systems capable of <strong>open-ended
-                        scientific knowledge discovery</strong>.
-                        My current <strong>interests</strong> revolve around enabling agents to learn from their own experience in open-ended and complex environments:</p>
+                        scientific discovery</strong>.
+                        My current <strong>interests</strong> revolve around enabling agents to learn from their own experience in open-ended and complex environments. This involves two things: <strong>environments</strong> & <strong>signals</strong>.</p>
                     <ul class="list-disc pl-6 [&_ul]:list-[revert]">
-                        <li class="mt-4"><strong>Upscaling Reinforcement Learning</strong> &mdash; Enabling agents to learn from experience in vast state & action spaces under long-horizon, complex tasks.
+                        <li class="mt-4"><strong>Scaling Data</strong> &mdash; Empowering agents to learn from experience in vast state & action spaces under long-horizon, complex tasks.
                             <ul class="list-disc pl-6">
-                                <li>How do we densify sparse reward signals (e.g., verifiable outcome rewards, natural language task descriptions, etc.)?</li>
+                                <li>Can we build environments for models to gather real-world live data during training?</li>
+                                <li>Can we intrinsically incentivize agents to perform efficient goal-directed exploration? How do we make agents <fancy-link to="https://arxiv.org/abs/2211.07819" class="italic">learn what data to learn from"?</fancy-link></li>
+                                <li>Which sets of tools maximize agent empowerment for exploration?</li>
+                            </ul>
+                        </li>
+                        <li class="mt-4"><strong>Scaling Supervision</strong> &mdash; Studying and designing scalable dense feedback methods that provide training & sampling signals.
+                            <ul class="list-disc pl-6">
+                                <li>How do we construct signals for non-verifiable tasks?</li>
                                 <li>How do we attribute credit to atomic actions (e.g., tokens)?</li>
                                 <li>How do we learn from natural language feedback? Can models learn from their own feedback?</li>
+                                <li>Can we generally extract informative signals from the strong priors LLMs/VLMs have?</li>
                             </ul>
                         </li>
-                        <li class="mt-4"><strong>Autonomous Information Seeking</strong> &mdash; Enabling agents to identify the data they need and develop a plan to obtain it via interaction.
-                            <ul class="list-disc pl-6">
-                                <li>Can we intrinsically incentivize agents to perform efficient goal-directed exploration?</li>
-                                <li>How can agents explore & test-time search in large, noisy, and feedback-scarse environments?</li>
-                            </ul>
-                        </li>
-                        <li class="mt-4"><strong>World Modeling</strong> & <strong>Open-Endedness</strong> &mdash; Generating scalable streams of
-                            experiential data, grounding long reasoning trajectories, and providing non-saturable training incentives.
-                            <ul class="list-disc pl-6">
-                                <li>Can we leverage world models for online planning and training-time efficient sampling?</li>
-                                <li>Should we define a world modeling objective (i.e., modeling the dynamics of the environment) in post-training just like we did in pre-training (i.e., next-token prediction)?</li>
-                            </ul>
-                        </li>
+                        <!-- <li class="mt-4"><strong>Upscaling Reinforcement Learning</strong> &mdash; Enabling agents to learn from experience in vast state & action spaces under long-horizon, complex tasks. -->
+                        <!--     <ul class="list-disc pl-6"> -->
+                        <!--         <li>How do we densify sparse reward signals (e.g., verifiable outcome rewards, natural language task descriptions, etc.)?</li> -->
+                        <!--         <li>How do we attribute credit to atomic actions (e.g., tokens)?</li> -->
+                        <!--         <li>How do we learn from natural language feedback? Can models learn from their own feedback?</li> -->
+                        <!--     </ul> -->
+                        <!-- </li> -->
+                        <!-- <li class="mt-4"><strong>Autonomous Information Seeking</strong> &mdash; Enabling agents to identify the data they need and develop a plan to obtain it via interaction. -->
+                        <!--     <ul class="list-disc pl-6"> -->
+                        <!--         <li>Can we intrinsically incentivize agents to perform efficient goal-directed exploration?</li> -->
+                        <!--         <li>How can agents explore & test-time search in large, noisy, and feedback-scarse environments?</li> -->
+                        <!--     </ul> -->
+                        <!-- </li> -->
+                        <!-- <li class="mt-4"><strong>World Modeling</strong> & <strong>Open-Endedness</strong> &mdash; Generating scalable streams of -->
+                        <!--     experiential data, grounding long reasoning trajectories, and providing non-saturable training incentives. -->
+                        <!--     <ul class="list-disc pl-6"> -->
+                        <!--         <li>Can we leverage world models for online planning and training-time efficient sampling?</li> -->
+                        <!--         <li>Should we define a world modeling objective (i.e., modeling the dynamics of the environment) in post-training just like we did in pre-training (i.e., next-token prediction)?</li> -->
+                        <!--     </ul> -->
+                        <!-- </li> -->
                     </ul>
                 </div>
             </div>
