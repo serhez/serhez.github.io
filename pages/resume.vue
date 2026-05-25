@@ -11,7 +11,7 @@
                                 Aalto
                                 University,
                                 Finland</h2>
-                            <p class="opacity-80"><i>September 2022 — September 2024</i></p>
+                            <p class="opacity-80"><i>September 2022 - September 2024</i></p>
                         </div>
                     </div>
                     <p><strong>GPA</strong> of 5.0 out of 5.0 (max. grade in all courses). Received the <strong>Dean's
@@ -22,7 +22,7 @@
                         <img src="/assets/ucl_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>BSc Computer Science</strong> — University College London, UK</h2>
-                            <p class="opacity-80"><i>September 2016 — June 2019</i></p>
+                            <p class="opacity-80"><i>September 2016 - June 2019</i></p>
                         </div>
                     </div>
                     <p><strong>First Class</strong> (1:1) grade. Minor in Entrepreneurship.</p>
@@ -32,15 +32,13 @@
                 <h1>Professional Experience</h1>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
-                        <img src="/assets/tuebingen_logo.png" alt="Universität Tübingen" class="w-12 object-contain">
+                        <img src="/assets/max-planck_logo.jpg" alt="Max Planck" class="w-12 object-contain">
                         <div class="flex flex-col">
-                            <h2><strong>Doctoral Candidate</strong> — Computational Neuroscience & Machine Learning
-                                Group (Bethge Lab), Universität Tübingen</h2>
-                            <p class="opacity-80"><i>June 2025 — Present</i></p>
+                            <h2><strong>PhD Candidate</strong> — University of Tübingen, Max Planck Institute for Intelligent Systems, ELLIS</h2>
+                            <p class="opacity-80"><i>June 2025 - Present</i></p>
                         </div>
                     </div>
-                    <p>I am currently pursuing a <strong>PhD</strong> under the supervision of Matthias Bethge (<fancy-link to="https://bethgelab.org/">Bethge Lab</fancy-link>) and Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, Google DeepMind). I am part of
-                        the Max Planck's IMPRS-IS and ELLIS PhD programs.
+                    <p>Advised by Prof. Matthias Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Prof. Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, <fancy-link to="https://x.com/Recursive_SI">Recursive</fancy-link>).
                     </p>
                 </div>
                 <div class="flex flex-col gap-1">
@@ -49,33 +47,17 @@
                         <div class="flex flex-col">
                             <h2><strong>Research Assistant</strong> — Intelligent Robotics Group, Aalto University
                             </h2>
-                            <p class="opacity-80"><i>May 2023 — August 2023</i></p>
+                            <p class="opacity-80"><i>May 2023 - August 2023</i></p>
                         </div>
                     </div>
-                    <p>I worked on an ongoing <strong>individual research project</strong> I had been developing with
-                        supervisors Prof. Ville
-                        Kyrki and Prof. Kevin Luck for the previous 6 months. I incorporate an <strong>imitation
-                            learning</strong> signal
-                        measuring the behavioral similarity between different morphologies in the
-                        <strong>reinforcement learning co-adaptation
-                            setting</strong> (i.e., the design and behavior of an agent are jointly optimized). We have
-                        observed that
-                        including this signal <strong>improves achieved rewards</strong>; these benefits scale
-                        proportionally to the complexity of the task.
-                        I gave a <strong>40-min.
-                            talk</strong> at the department about the project. This work culminated in a paper, which we
-                        have
-                        presented at <strong>RSS EARL 2024</strong> and <strong>EWRL 2024</strong>, winning the
-                        <strong>“Best Workshop Paper
-                            Award”</strong> in the earlier.
-                    </p>
+                    <p>Supervised by Prof. Ville Kyrki and Prof. Kevin Luck. Culminated in the paper "Co-Adaptation of Embodiment and Control with Self-Imitation Learning", accepted at <strong>IROS 2025</strong> and winning the <strong>Best Workshop Paper Award</strong> at <strong>RSS EARL 2024</strong>.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
                         <img src="/assets/cabify_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>Backend Software Engineer</strong> — Cabify</h2>
-                            <p class="opacity-80"><i>January 2022 — August 2022</i></p>
+                            <p class="opacity-80"><i>January 2022 - August 2022</i></p>
                         </div>
                     </div>
                     <p>Cabify is a Spanish <strong>ride-sharing company</strong> which provides vehicles for hire via
@@ -90,7 +72,7 @@
                         <img src="/assets/rockstar_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>Content Systems Engineer</strong> — Rockstar Games</h2>
-                            <p class="opacity-80"><i>November 2020 — June 2021</i></p>
+                            <p class="opacity-80"><i>November 2020 - June 2021</i></p>
                         </div>
                     </div>
                     <p>I <strong>designed and developed software systems</strong> for Rockstar’s large and highly
@@ -103,7 +85,7 @@
                         <img src="/assets/pwc_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>Technology Consultant</strong> — PwC</h2>
-                            <p class="opacity-80"><i>May 2019 — October 2020</i></p>
+                            <p class="opacity-80"><i>May 2019 - October 2020</i></p>
                         </div>
                     </div>
                     <p>I mainly worked on two areas: <strong>software engineering</strong> (~80%) and <strong>foreign
@@ -116,7 +98,7 @@
                         <img src="/assets/microsoft_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>Student Partner</strong> — Microsoft</h2>
-                            <p class="opacity-80"><i>April 2018 — April 2019</i></p>
+                            <p class="opacity-80"><i>April 2018 - April 2019</i></p>
                         </div>
                     </div>
                 </div>
@@ -126,13 +108,22 @@
                         <div class="flex flex-col">
                             <h2><strong>Academic Tutor</strong> — UCL
                                 Department of Computer Science</h2>
-                            <p class="opacity-80"><i>September 2017 — April 2018</i></p>
+                            <p class="opacity-80"><i>September 2017 - April 2018</i></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="flex flex-col gap-12 basis-2/5">
+            <div class="flex flex-col gap-6">
+                <h1>Vocational</h1>
+                <div class="flex flex-col gap-1">
+                    <h2>
+                        <strong>Reviewer</strong> — ICLR Workshop RSI
+                    </h2>
+                    <p>February 2026</p>
+                </div>
+            </div>
             <div class="flex flex-col gap-6">
                 <h1>Courses (non-exhaustive)</h1>
                 <div class="flex flex-row gap-4">
@@ -192,16 +183,16 @@
             <div class="flex flex-col gap-6">
                 <h1>Skills</h1>
                 <div class="flex flex-col gap-1">
-                    <h2><strong>Most used in the last year</strong></h2>
-                    <p>Python, C++ & CUDA, web (Go, Vue and CSS).</p>
+                    <h2><strong>Most used programming languages</strong></h2>
+                    <p>Python, C/C++, Lua, Go, web (Vue, React, CSS).</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>Libraries</strong></h2>
-                    <p>Numpy, Matplotlib, PyTorch, Hugging Face (e.g., transformers), Gym, Mujoco, W&B...</p>
+                    <p>Numpy, PyTorch, VeRL, Gym-style environments, Matplotlib, Pandas, W&B...</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>Other technologies</strong></h2>
-                    <p>Docker, Git, Perforce, Assembly, Linux/Unix.</p>
+                    <p>Docker, Git, multi-node SLURM clusters, Linux/Unix.</p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <h2><strong>Languages</strong></h2>
