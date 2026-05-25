@@ -115,11 +115,11 @@ function onRowClick(event: any) {
                     {{ data.venue }}
                 </template>
             </Column>
-            <Column field="recognitions" header="Recognitions" style="min-width: 12rem">
-                <template #body="{ data }">
-                    {{ data.recognitions }}
-                </template>
-            </Column>
+            <!-- <Column field="recognitions" header="Recognitions" style="min-width: 12rem"> -->
+            <!--     <template #body="{ data }"> -->
+            <!--         {{ data.recognitions }} -->
+            <!--     </template> -->
+            <!-- </Column> -->
             <Column header="Links" field="links" style="min-width: 6rem">
                 <template #body="{ data }">
                     <a v-for="link in data.links" :key="link.title" :href="link.url" :title="link.title"
