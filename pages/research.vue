@@ -16,29 +16,70 @@ function togglePopup(publication: any) {
     <main>
         <div class="flex flex-col gap-12">
             <div class="flex flex-col gap-6">
-                <h1>
-                    Current interests
-                </h1>
+                <h1>Current interests</h1>
                 <div class="flex flex-col gap-2">
-                    <p>My <strong>long-term goal</strong> is to develop systems capable of <strong>open-ended
-                        scientific discovery</strong>.
-                        My current <strong>interests</strong> revolve around enabling agents to learn from their own experience in open-ended and complex environments. This involves two things: <strong>environments</strong> & <strong>signals</strong>.</p>
+                    <p>
+                        My <strong>long-term goal</strong> is to develop systems capable of
+                        <strong>open-ended scientific discovery</strong>. My current <strong>interests</strong> revolve
+                        around enabling agents to learn from their own experience in open-ended and complex settings.
+                        This involves two things: <strong>environments</strong> & <strong>signals</strong>.
+                    </p>
                     <ul class="list-disc pl-6 [&_ul]:list-[revert]">
-                        <li class="mt-4"><strong>Scaling Data</strong> &mdash; Empowering agents to learn from experience in vast state & action spaces under long-horizon, complex tasks.
+                        <li class="mt-4">
+                            <strong>Scaling Data</strong> &mdash; Empowering agents to learn from experience in vast
+                            state & action spaces under long-horizon, complex tasks.
                             <ul class="list-disc pl-6">
-                                <li>Can we build environments for models to gather real-world live data during training?</li>
-                                <li>Can we intrinsically incentivize agents to perform efficient goal-directed exploration? How do we make agents <fancy-link to="https://arxiv.org/abs/2211.07819" class="italic">learn what data to learn from"?</fancy-link></li>
+                                <li>
+                                    Can we build environments for models to gather real-world live data during training?
+                                </li>
+                                <li>
+                                    Can we intrinsically incentivize agents to perform efficient goal-directed
+                                    exploration? How do we make agents
+                                    <fancy-link to="https://arxiv.org/abs/2211.07819" class="italic"
+                                        >learn what data to learn from"?</fancy-link
+                                    >
+                                </li>
                                 <li>Which sets of tools maximize agent empowerment for exploration?</li>
                             </ul>
                         </li>
-                        <li class="mt-4"><strong>Scaling Supervision</strong> &mdash; Studying and designing scalable dense feedback methods that provide training & sampling signals.
+                        <li class="mt-4">
+                            <strong>Scaling Supervision</strong> &mdash; Studying and designing scalable feedback
+                            methods that provide training & sampling signals.
                             <ul class="list-disc pl-6">
                                 <li>How do we construct signals for non-verifiable tasks?</li>
+                                <li>
+                                    How do we construct signals from natural language feedback? Can models learn from
+                                    their own feedback?
+                                </li>
                                 <li>How do we attribute credit to atomic actions (e.g., tokens)?</li>
-                                <li>How do we learn from natural language feedback? Can models learn from their own feedback?</li>
-                                <li>Can we generally extract informative signals from the strong priors LLMs/VLMs have?</li>
+                                <li>
+                                    How do we extract informative dense signals from the strong priors LLMs/VLMs have?
+                                </li>
+                                <li>
+                                    How should we balance next-token/next-observation prediction with human-alignment
+                                    objectives (e.g., task rewards or behavioral constraints)?
+                                </li>
                             </ul>
                         </li>
+
+                        <li class="mt-4">
+                            <strong>Scaling Exploration & Introspection</strong> &mdash; Enabling agents to design &
+                            evolve their own data pipelines.
+                            <ul class="list-disc pl-6">
+                                <li>
+                                    Should we focus signal design on downstream performance hoping for emergent
+                                    capabilities, or on capabilities hoping for compositional skills?
+                                </li>
+                                <li>
+                                    How do we design & train models to identify their own weak/missing capabilities?
+                                </li>
+                                <li>
+                                    How do we train models to design and evolve environments & signals to fill their
+                                    capability gaps?
+                                </li>
+                            </ul>
+                        </li>
+
                         <!-- <li class="mt-4"><strong>Upscaling Reinforcement Learning</strong> &mdash; Enabling agents to learn from experience in vast state & action spaces under long-horizon, complex tasks. -->
                         <!--     <ul class="list-disc pl-6"> -->
                         <!--         <li>How do we densify sparse reward signals (e.g., verifiable outcome rewards, natural language task descriptions, etc.)?</li> -->
@@ -63,18 +104,26 @@ function togglePopup(publication: any) {
                 </div>
             </div>
             <div class="flex flex-col gap-0">
-                <h1>
-                    Research output
-                </h1>
+                <h1>Research output</h1>
                 <research-table class="w-full" :publications="publications" @click="togglePopup" />
             </div>
         </div>
 
         <!-- Popup -->
-        <VueFinalModal v-model="showPopup" display-directive="if" :hide-overlay="false" overlay-transition="vfm-fade"
-            content-transition="vfm-fade" :click-to-close="true" :esc-to-close="true" background="non-interactive"
-            :lock-scroll="true" :reserve-scroll-bar-gap="true" class="flex justify-center items-center"
-            content-class="flex w-full h-full lg:h-fit lg:max-h-screen lg:max-w-2xl lg:mx-4 lg:space-y-2">
+        <VueFinalModal
+            v-model="showPopup"
+            display-directive="if"
+            :hide-overlay="false"
+            overlay-transition="vfm-fade"
+            content-transition="vfm-fade"
+            :click-to-close="true"
+            :esc-to-close="true"
+            background="non-interactive"
+            :lock-scroll="true"
+            :reserve-scroll-bar-gap="true"
+            class="flex justify-center items-center"
+            content-class="flex w-full h-full lg:h-fit lg:max-h-screen lg:max-w-2xl lg:mx-4 lg:space-y-2"
+        >
             <research-popup v-model="selected" @close="showPopup = false" />
         </VueFinalModal>
     </main>
