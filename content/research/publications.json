@@ -1,6 +1,6 @@
 [
     {
-        "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+        "title": "QVal: Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
         "authors": [
             "Sergio Hernández-Gutiérrez",
             "Matteo Merler",
@@ -9,11 +9,11 @@
             "Ameya Prabhu",
             "Matthias Bethge"
         ],
-        "venue": "ICML",
+        "venue": "NeurIPS",
         "year": "2026",
         "status": "published",
-        "type": "workshop",
-        "abstract": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream performance of a training pipeline that integrates them. This is expensive, conflates supervision quality with training engineering confounders, and renders different methodological families requiring distinct training setups incomparable. As a result, dense supervision methods are rarely benchmarked on common ground. We introduce QVal, a training-free testbed for directly evaluating dense supervision signals. Given a state-action pair, QVal measures how well a method's score is Q-aligned: whether it orders actions according to the Q-values of a strong reference-policy. This lets us compare signals before any training run and separate signal quality from other engineering choices. We instantiate QVal as QVal-v1.0, benchmarking 21 dense supervision methods across four diverse environments and seven methodological families, with over 1.2K evaluation experiments across six open-weight model backbones. We find that simple prompting baselines consistently outperform recent dense supervision methods from the literature, and that performance clusters strongly by family. These findings hold across model sizes, environments, and observation modalities. QVal is designed to be easily extensible to new environments and methods, enabling researchers to iterate on dense supervision methods before any training run.",
+        "type": "conference",
+        "abstract": "LLM agents increasingly act over long horizons, where outcome-only rewards say little about which intermediate actions were good. Dense supervision methods address this by scoring intermediate steps, but they are usually evaluated through the downstream performance of a full training pipeline. This is expensive, confounds signal quality with other training choices, and means that methods are rarely compared on common ground. We introduce QVal, a training-free testbed that measures the Q-alignment of a dense signal: whether it orders the candidate actions in each state the same way as their returns under a reference policy do. We benchmark 21 methods from seven families with six open-weight backbones in four environments. Simple prompting baselines are the most Q-aligned on average, and performance clusters strongly by family. Code-generated signals do well only in small state and action spaces; embedding-based signals are weak; self-distillation signals are anti-aligned; and no method is Q-aligned in open-ended environments. When five of these signals guide an actor at test time by choosing among four proposed actions, Q-alignment strongly correlates with the gain in task success. QVal is designed to be easily extensible to new environments and methods, enabling researchers to compare new signals cheaply before committing to a training run.",
         "links": [
             {
                 "title": "Website",
@@ -35,16 +35,16 @@
     {
         "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
         "authors": [
-            "Babak Rahmani",
-            "Sebastian Dziadzio",
-            "Joschka Strüber",
+            "Babak Rahmani*",
+            "Sebastian Dziadzio*",
+            "Joschka Strüber*",
             "Sergio Hernández-Gutiérrez",
             "Matthias Bethge"
         ],
-        "venue": "ICML",
+        "venue": "NeurIPS",
         "year": "2026",
         "status": "published",
-        "type": "workshop",
+        "type": "conference",
         "abstract": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions—an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code, and how much does this reconstruction improve with the ability to design controlled experiments? We introduce RevengeBench, a benchmark of 75 LLM generated, Elo-calibrated policies across five game environments, drawn from CodeClash tournament trajectories. The learner observes the hidden target policy play against sampled opponents and designs behavioral probes in the form of custom opponent policies that elicit informative behavior. It then submits an executable hypothesis, which is evaluated using continuous action-distance metrics. We further validate that recovered code carries informative signal in downstream player-versus-player tournaments. Across twelve frontier LLMs, recovery quality varies substantially (34–72% of initial distance closed), with reconstructed policies yielding measurable competitive advantage, particularly for weaker models that otherwise struggle to design effective counter-strategies. Our benchmark positions behavioral recovery of programmatic policies as a tractable inverse problem in code-space, opening a path to opponent modeling, policy interpretability, and the broader question of inferring latent mechanisms from observations.",
         "links": [
             {
