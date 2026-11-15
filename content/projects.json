@@ -1,5 +1,16 @@
 [
     {
+        "title": "llenvs",
+        "description": "A common interface to train and evaluate LLMs and VLMs on agentic environments. Wraps reasoning, math, game, tool-use, web, and embodied benchmarks as stateless, Gym-style MDPs with typed observations and multi-signal rewards, for evaluation, RL training, and search.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/llenvs",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
         "title": "editr",
         "description": "Tool to open remote projects in local editors through a Mutagen-backed mirror. Your editor, language servers, formatters, linters, file pickers, grep tools, Git UI, and terminal commands see a normal local directory. Mutagen keeps that directory synchronized with the remote project.",
         "links": [
@@ -16,12 +27,34 @@
         ]
     },
     {
+        "title": "herdr-canopy",
+        "description": "Status-aware navigator for Herdr and Rex workspaces/sessions, worktrees, tabs, and panes. A searchable tree with live agent status orders pane by expected importance: blocked agents first, then unseen completions and working agents.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/herdr-canopy",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
         "title": "bento.nvim",
         "description": "A minimalist and efficient yet powerful buffer manager for Neovim. Designed to be extensible and customizable, both in terms of UI & functionality.",
         "links": [
             {
                 "title": "GitHub",
                 "url": "https://github.com/serhez/bento.nvim",
+                "icon": "mdi:github"
+            }
+        ]
+    },
+    {
+        "title": "tabern.nvim",
+        "description": "Stable, human-readable names for Neovim tabs that persist with native sessions. Dependency-free and compatible with any session manager built on :mksession.",
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/serhez/tabern.nvim",
                 "icon": "mdi:github"
             }
         ]
