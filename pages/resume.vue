@@ -5,6 +5,17 @@
                 <h1>Education</h1>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
+                        <img src="/assets/max-planck_logo.jpg" alt="Max Planck" class="w-12 object-contain">
+                        <div class="flex flex-col">
+                            <h2><strong>PhD Candidate</strong> — University of Tübingen, Max Planck Institute for Intelligent Systems, ELLIS</h2>
+                            <p class="opacity-80"><i>June 2025 - Present</i></p>
+                        </div>
+                    </div>
+                    <p>Advised by Prof. Matthias Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Prof. Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, <fancy-link to="https://x.com/Recursive_SI">Recursive</fancy-link>).
+                    </p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-row gap-4">
                         <img src="/assets/aalto_logo.png" alt="Aalto University" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>MSc in Machine learning, Data Science and Artificial Intelligence</strong> —
@@ -39,17 +50,6 @@
                         </div>
                     </div>
                     <p>Focusing on post-training signal design for automated scientific discovery.</p>
-                </div>
-                <div class="flex flex-col gap-1">
-                    <div class="flex flex-row gap-4">
-                        <img src="/assets/max-planck_logo.jpg" alt="Max Planck" class="w-12 object-contain">
-                        <div class="flex flex-col">
-                            <h2><strong>PhD Candidate</strong> — University of Tübingen, Max Planck Institute for Intelligent Systems, ELLIS</h2>
-                            <p class="opacity-80"><i>June 2025 - Present</i></p>
-                        </div>
-                    </div>
-                    <p>Advised by Prof. Matthias Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Prof. Tim Rocktäschel (<fancy-link to="https://ucldark.com/">UCL DARK</fancy-link>, <fancy-link to="https://x.com/Recursive_SI">Recursive</fancy-link>).
-                    </p>
                 </div>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
