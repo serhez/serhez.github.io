@@ -34,8 +34,8 @@ definePageMeta({
                 <div class="max-w-2xl space-y-4">
                     <p>
                         I am a student researcher at the
-                        <fancy-link to="https://allenai.org/">Institute for AI (Ai2)</fancy-link>, as well as a PhD
-                        candidate at the
+                        <fancy-link to="https://allenai.org/">Allen Institute for AI (Ai2)</fancy-link>, as well as a
+                        PhD candidate at the
                         <fancy-link to="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</fancy-link>
                         and <fancy-link to="https://ellis.eu/">ELLIS</fancy-link>, under the supervision of Matthias
                         Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Tim Rocktäschel
