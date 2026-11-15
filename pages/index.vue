@@ -33,7 +33,9 @@ definePageMeta({
                 </div>
                 <div class="max-w-2xl space-y-4">
                     <p>
-                        I am a <strong>PhD</strong> candidate at the
+                        I am a student researcher at the
+                        <fancy-link to="https://allenai.org/">Institute for AI (Ai2)</fancy-link>, as well as a PhD
+                        candidate at the
                         <fancy-link to="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</fancy-link>
                         and <fancy-link to="https://ellis.eu/">ELLIS</fancy-link>, under the supervision of Matthias
                         Bethge (<fancy-link to="https://bethgelab.org/">BethgeLab</fancy-link>) and Tim Rocktäschel
@@ -41,9 +43,10 @@ definePageMeta({
                         <fancy-link to="https://x.com/Recursive_SI">Recursive</fancy-link>).
                     </p>
                     <p>
-                        I specialize in designing dense signal methods to scale-up <strong>RL post-training</strong>.
-                        Check out my <fancy-link to="/research">research output & interests</fancy-link> page for a more
-                        detailed account.
+                        I specialize in studying and designing supervision signals for
+                        <strong>RL post-training</strong> in long-horizon and open-ended tasks. Check out my
+                        <fancy-link to="/research">research output & interests</fancy-link> page for a more detailed
+                        account.
                     </p>
                     <p>
                         Originally from the Canary Islands, I hold a <strong>BSc in Computer Science</strong> from
