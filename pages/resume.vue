@@ -32,6 +32,16 @@
                 <h1>Professional Experience</h1>
                 <div class="flex flex-col gap-1">
                     <div class="flex flex-row gap-4">
+                        <img src="/assets/ai2_logo.jpg" alt="Ai2" class="w-12 object-contain" />
+                        <div class="flex flex-col">
+                            <h2><strong>Student Researcher</strong> — Allen Institute for AI, Asta Team</h2>
+                            <p class="opacity-80"><i>September 2026 - Present</i></p>
+                        </div>
+                    </div>
+                    <p>Focusing on post-training signal design for automated scientific discovery.</p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-row gap-4">
                         <img src="/assets/max-planck_logo.jpg" alt="Max Planck" class="w-12 object-contain">
                         <div class="flex flex-col">
                             <h2><strong>PhD Candidate</strong> — University of Tübingen, Max Planck Institute for Intelligent Systems, ELLIS</h2>
