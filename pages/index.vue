@@ -81,11 +81,11 @@ definePageMeta({
 
 <style scoped>
 h1 {
-    @apply max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl sm:leading-tight;
+    @apply max-w-2xl text-4xl font-bold tracking-tight sm:text-4xl sm:leading-tight;
 }
 
 h2 {
-    @apply text-zinc-700 max-w-2xl text-xl tracking-tight sm:text-2xl sm:leading-tight;
+    @apply text-zinc-700 max-w-2xl text-xl tracking-tight sm:text-xl sm:leading-tight;
 }
 
 p {
