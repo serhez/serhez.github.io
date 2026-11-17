@@ -45,7 +45,7 @@ definePageMeta({
                     <p>
                         I specialize in studying and designing supervision <strong>signals</strong> for
                         <strong>RL post-training</strong> in long-horizon and open-ended tasks. My long-term focus is on
-                        solving <strong>scientific discovery</strong>. Check out my
+                        solving <strong>automated scientific discovery</strong>. Check out my
                         <fancy-link to="/research">research output & interests</fancy-link> page for more.
                     </p>
                     <p>
